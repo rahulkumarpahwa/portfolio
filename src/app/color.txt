@@ -1,0 +1,5 @@
+Logo Font: Genty (https://www.dafont.com/genty.font)
+Logo Inside Bg Color : #e16539
+Logo Outer Ring Color : #f0dfc8
+Logo Outer Bg Color : #51abb2
+Logo Inner Text color: #303030
