@@ -1,13 +1,28 @@
 "use client";
 import DarkModeToggle from "./DarkModeToggle";
-import Image from "next/image";
+import { AiOutlineCloudDownload } from "react-icons/ai";
+import Logo from "./Logo";
 
 const Header = () => {
   return (
     <div className="flex items-center justify-between bg-[#51abb2] p-8 shadow-xl dark:bg-black">
-      <div className="w-20">
-        <Image src="/logo.png" alt="Logo" width={100} height={100} className="w-full" />
-      </div>
+      <Logo />
+      <ul className="flex items-center justify-center gap-10 dark:text-white ">
+        <li>Journey</li>
+        <li>Projects</li>
+        <li>Connect</li>
+        <li>Try</li>
+        <li>
+          <a
+            href="./rahulkumar.pdf"
+            download
+            className="flex gap-2 items-center justify-center"
+          >
+            <AiOutlineCloudDownload className="font-bold text-xl" />{" "}
+            <span>CV</span>
+          </a>
+        </li>
+      </ul>
       <DarkModeToggle />
     </div>
   );
