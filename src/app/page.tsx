@@ -1,3 +1,4 @@
+import Connect from "@/components/Connect";
 import Introduction from "@/components/Introduction";
 import Image from "next/image";
 
@@ -16,6 +17,8 @@ export default function Home() {
           />
         </div>
       </div>
+
+      <Connect/>
     </main>
   );
 }
