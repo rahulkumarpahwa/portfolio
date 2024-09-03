@@ -14,8 +14,8 @@ interface DATA {
 
 const GithubCard = ({ data }: DATA) => {
   return (
-    <div className="border border-gray-500 hover:border-white max-w-[17rem] rounded-lg">
-      <Link href={data?.html_url ? data?.html_url : "none"}>
+    <div className="border border-gray-500 hover:border-white max-w-[17rem] rounded-lg shadow-[13px_5px_6px_0px_rgba(0,_0,_0,_0.1)] dark:shadow-[4px_2px_6px_0px_#ffffff]">
+      <Link href={data?.html_url ? data?.html_url : "none"} target="_blank">
         <Image
           src={data?.avatar_url}
           height="1000"
