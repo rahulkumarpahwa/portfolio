@@ -9,7 +9,8 @@ const Connect = () => {
     html_url: "none",
     avatar_url: "https://avatars.githubusercontent.com/u/56966500?v=4",
     bio: "none",
-    twitter_username: "none",
+    followers: "none",
+    following: "none",
   });
 
   useEffect(() => {
@@ -22,7 +23,6 @@ const Connect = () => {
     // console.log(json);
     setData(json);
   };
-
 
   return (
     data != undefined && (
