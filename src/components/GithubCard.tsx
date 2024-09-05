@@ -38,9 +38,16 @@ const GithubCard = ({ data }: DATA) => {
         />
       </div>
 
-      <Link href={data?.html_url} className="font-bold text-xl py-1 px-2">{data?.name}</Link>
+      <Link
+        href={data?.html_url}
+        target="_blank"
+        className="font-bold text-xl py-1 px-2"
+      >
+        {data?.name}
+      </Link>
 
       <Link
+        target="_blank"
         href={
           "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Frahulkumarpahwa"
         }
@@ -52,6 +59,7 @@ const GithubCard = ({ data }: DATA) => {
       <p className="p-2">{data?.bio}</p>
       <p className="px-2 py-1 flex items-center">
         <Link
+          target="_blank"
           href={"https://github.com/rahulkumarpahwa?tab=followers"}
           className="flex items-center gap-0.5"
         >
@@ -60,18 +68,23 @@ const GithubCard = ({ data }: DATA) => {
           {data?.followers} followers
         </Link>{" "}
         <BsDot />{" "}
-        <Link href={"https://github.com/rahulkumarpahwa?tab=following"}>
+        <Link
+          href={"https://github.com/rahulkumarpahwa?tab=following"}
+          target="_blank"
+        >
           {data?.following} following
         </Link>
       </p>
       <div className="flex flex-col px-2 py-1">
         <Link
+          target="_blank"
           href={"https://github.com/rahulkumarpahwa?tab=achievements"}
           className="font-semibold"
         >
           Achievements
         </Link>
         <Link
+          target="_blank"
           href={
             "https://github.com/rahulkumarpahwa?achievement=pull-shark&tab=achievements"
           }
