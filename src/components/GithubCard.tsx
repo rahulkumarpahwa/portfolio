@@ -17,7 +17,7 @@ interface DATA {
 
 const GithubCard = ({ data }: DATA) => {
   return (
-    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-1/3 h-[430px]  ">
+    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-1/3 h-[450px] ">
       <div className="w-full bg-[#e9e5df] rounded-tl-lg rounded-tr-lg p-4 ">
         {" "}
         <Image
@@ -75,7 +75,7 @@ const GithubCard = ({ data }: DATA) => {
           {data?.following} following
         </Link>
       </p>
-      <div className="flex flex-col px-2 py-1">
+      <div className="flex flex-col gap-1 px-2 py-2">
         <Link
           target="_blank"
           href={"https://github.com/rahulkumarpahwa?tab=achievements"}

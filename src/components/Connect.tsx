@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import GithubCard from "./GithubCard";
 import LinkedinCard from "./LinkedinCard";
+import TwitterCard from "./TwitterCard";
 
 const Connect = () => {
   const [data, setData] = useState({
@@ -28,11 +29,8 @@ const Connect = () => {
     data != undefined && (
       <div className="flex items-center justify-center gap-10 m-8 py-8 px-4">
         <LinkedinCard />
-        {/* <LinkedinCard />
-        <LinkedinCard /> */}
-        {/* {/* <GithubCard data={data} /> */}
         <GithubCard data={data} />
-        {/* <GithubCard data={data} /> */}
+        <TwitterCard/>
       </div>
     )
   );
