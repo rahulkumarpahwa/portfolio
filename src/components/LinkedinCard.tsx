@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const LinkedinCard =()=>{
   return (
-    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-1/3 h-[440px]  ">
+    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-1/3 h-[430px]  ">
       <div className="w-full bg-[#e9e5df] rounded-tl-lg rounded-tr-lg p-4">
         <Image
           src={"./linkedin.svg"}
           height="1000"
           width="1000"
-          className="h-10 w-80"
+          className="h-[1.75rem]"
           alt={"logo"}
         />
       </div>
@@ -29,11 +29,13 @@ const LinkedinCard =()=>{
         | Node.js | Express.js | MongoDB | HTML5 | CSS3 | JavaScript | Git |
         Github | Open to New Opportunities
       </p>
-      <p className="px-2 py-1">salesine | Panjab University, Chandigarh</p>
+      <p className="px-2 py-1">
+        <Link href={"/"}>salesine</Link> | <Link href={"/"}>Panjab University, Chandigarh</Link>
+      </p>
       <div className="py-2 px-2">
         <Link
           href={"/"}
-          className="rounded-2xl border font-bold border-[#0a66c2] px-3 py-2 text-[#0a66c2] hover:border-4 hover:shadow-inner shadow-[#83bcf4]"
+          className="rounded-2xl border font-bold border-[#0a66c2] px-3 py-2 text-[#0a66c2] hover:border-2 hover:shadow-inner shadow-[#83bcf4]"
         >
           View profile
         </Link>

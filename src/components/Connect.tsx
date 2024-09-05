@@ -26,12 +26,12 @@ const Connect = () => {
 
   return (
     data != undefined && (
-      <div className="flex items-center justify-center gap-10 m-8 p-8">
+      <div className="flex items-center justify-center gap-10 m-8 py-8 px-4">
         <LinkedinCard />
-        <LinkedinCard />
-        <LinkedinCard />
-        {/* <GithubCard data={data} />
-        <GithubCard data={data} /> */}
+        {/* <LinkedinCard />
+        <LinkedinCard /> */}
+        {/* {/* <GithubCard data={data} /> */}
+        <GithubCard data={data} />
         {/* <GithubCard data={data} /> */}
       </div>
     )
