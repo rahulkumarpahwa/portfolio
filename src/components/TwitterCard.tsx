@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import { SlCalender } from "react-icons/sl";
 
 const TwitterCard = () => {
   return (
@@ -25,23 +26,51 @@ const TwitterCard = () => {
           alt={"logo"}
         />
       </div>
-      <p className="font-bold text-xl py-1 px-2">Rahul K.</p>
-      <p className="p-2">
-        SDE Intern @salesine | Next.js | React.js | Redux-Toolkit | Tailwind CSS
-        | Node.js | Express.js | MongoDB | HTML5 | CSS3 | JavaScript | Git |
-        Github | Open to New Opportunities
-      </p>
-      <p className="px-2 py-1">salesine | Panjab University, Chandigarh</p>
-      <div className="py-2 px-2">
+      <div className="flex justify-between items-center">
+        <Link
+          href={"https://x.com/rahulkumarpahwa"}
+          className="font-bold text-xl py-1 px-2 pr-3"
+        >
+          Rahul Kumar
+        </Link>
         <Link
           target="_blank"
-          href={
-            "https://in.linkedin.com/in/rahulkumarpahwa?trk=public-profile-badge-profile-badge-view-profile-cta"
-          }
-          className="rounded-2xl border font-bold border-[#0a66c2] px-3 py-2 text-[#0a66c2] hover:border-2 hover:shadow-inner shadow-[#83bcf4]"
+          href={"https://x.com/rahulkumarpahwa"}
+          className="rounded-full text px-3 py-2 mr-1 text-black font-bold  text-center  hover:bg-[#f8f2f2] bg-white"
         >
-          View profile
+          Follow
         </Link>
+      </div>
+      <p className="p-2 my-3">
+        MERN Stack Developer, React.js, Parcel, JSX, EJS, Node.js, Express.js,
+        MongoDB | Looking for Internships/full time opportunities |
+        <Link
+          href={"https://x.com/search?q=%23LearnInPublic&src=hashtag_click"}
+        >
+          #LearnInPublic
+        </Link>
+      </p>
+      <div className="flex items-center gap-1 px-2 my-1">
+        <SlCalender /> <p>Joined March 2017</p>
+      </div>
+      <div className="py-2 px-2">
+        <p className="py-1 flex items-center gap-2">
+          <Link
+            target="_blank"
+            href={"https://x.com/rahulkumarpahwa/following"}
+            className="flex items-center gap-0.5 hover:underline"
+          >
+            {" "}
+            <b>{224}</b> following
+          </Link>{" "}
+          <Link
+            href={"https://x.com/rahulkumarpahwa/verified_followers"}
+            target="_blank"
+            className="hover:underline"
+          >
+            <b>{25}</b> followers
+          </Link>
+        </p>
       </div>
     </div>
   );
