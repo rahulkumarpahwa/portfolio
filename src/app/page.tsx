@@ -1,4 +1,4 @@
-import Connect from "@/components/Connect";
+import Connect from "@/components/Connection/Connect";
 import Introduction from "@/components/Introduction";
 import Image from "next/image";
 
