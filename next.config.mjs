@@ -2,7 +2,7 @@
 const nextConfig = {
   images: {
     //added to configure images
-    domains: ["avatars.githubusercontent.com"],
+    domains: ["avatars.githubusercontent.com", "assets.aceternity.com"],
   },
 };
 

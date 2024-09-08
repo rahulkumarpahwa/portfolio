@@ -1,5 +1,6 @@
 import Connect from "@/components/Connection/Connect";
 import Introduction from "@/components/Introduction";
+import { TimelineDemo } from "@/components/Journey/Timeline";
 import Image from "next/image";
 
 export default function Home() {
@@ -17,8 +18,8 @@ export default function Home() {
           />
         </div>
       </div>
-
-      <Connect/>
+      <TimelineDemo />
+      <Connect />
     </main>
   );
 }
