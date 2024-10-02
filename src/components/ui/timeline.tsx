@@ -7,6 +7,8 @@ import {
 } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
 
+import Link from "next/link";
+
 interface TimelineEntry {
   title: string;
   content: React.ReactNode;
@@ -37,13 +39,17 @@ export const Timeline = ({ data } : {data: TimelineEntry[]}) => {
       className="w-full bg-inherit dark:bg-black font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          Changelog from my journey
+      <div className="max-w-7xl text-center pb-10 pt-40  px-4 md:px-8 lg:px-10">
+        <h2 className="text-4xl font-sans italic md:text-7xl mb-4 text-black dark:text-white max-w-4xl">
+          Timeline
         </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
-          I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
-          a timeline of my journey.
+        <p className="text-neutral-700 text-center dark:text-neutral-300 text-sm md:text-xl">
+          I&apos;ve been working as a SDE Intern with{" "}
+          <Link className="font-bold" href="https://salesine.com">
+            Salesine
+          </Link>{" "}
+          for the past 6+ months.
+          <p>Here&apos;s a timeline of my journey.</p>
         </p>
       </div>
 
