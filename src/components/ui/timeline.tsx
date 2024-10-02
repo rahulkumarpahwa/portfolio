@@ -40,17 +40,19 @@ export const Timeline = ({ data } : {data: TimelineEntry[]}) => {
       ref={containerRef}
     >
       <div className="max-w-7xl text-center pb-10 pt-40  px-4 md:px-8 lg:px-10">
-        <h2 className="text-4xl font-sans italic md:text-7xl mb-4 text-black dark:text-white max-w-4xl">
+        <h2 className="text-4xl animate-bounce font-sans italic md:text-7xl mb-4 text-black dark:text-white max-w-4xl">
           Timeline
         </h2>
-        <p className="text-neutral-700 text-center dark:text-neutral-300 text-sm md:text-xl">
+        <div className="text-neutral-700 text-center dark:text-neutral-300 text-sm md:text-xl">
           I&apos;ve been working as a SDE Intern with{" "}
           <Link className="font-bold" href="https://salesine.com">
             Salesine
           </Link>{" "}
           for the past 6+ months.
-          <p>Here&apos;s a timeline of my journey.</p>
-        </p>
+          <div className="text-neutral-700 text-center dark:text-neutral-300 text-sm md:text-xl">
+            Here&apos;s a timeline of my journey.
+          </div>
+        </div>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
