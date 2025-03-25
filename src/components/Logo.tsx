@@ -2,14 +2,9 @@
 import Image from "next/image";
 
 const Logo = () => {
-
-  const scrollToTop = () => {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    };
-
   return (
-    <div id="home" className="w-[10%]">
-      <Image onClick={scrollToTop}
+    <div className="w-[10%]">
+      <Image
         src="/logo.png"
         alt="Logo"
         width={1000}

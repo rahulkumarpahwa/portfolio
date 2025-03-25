@@ -1,5 +1,4 @@
 "use client";
-import { IoMdClock } from "react-icons/io";
 import {
   useMotionValueEvent,
   useScroll,
@@ -13,9 +12,9 @@ import Link from "next/link";
 interface TimelineEntry {
   title: string;
   content: React.ReactNode;
-}
+} 
 
-export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
+export const Timeline = ({ data } : {data: TimelineEntry[]}) => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
@@ -37,13 +36,11 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   return (
     <div
-      id="timeline"
       className="w-full bg-inherit dark:bg-black font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl text-center pb-10 pt-40 px-4 md:px-8 lg:px-10">
-        <h2 className="text-4xl flex align-center justify-center animate-bounce font-sans italic md:text-7xl mb-4 text-black dark:text-white max-w-4xl">
-          <IoMdClock />
+      <div className="max-w-7xl text-center pb-10 pt-40  px-4 md:px-8 lg:px-10">
+        <h2 className="text-4xl animate-bounce font-sans italic md:text-7xl mb-4 text-black dark:text-white max-w-4xl">
           Timeline
         </h2>
         <div className="text-neutral-700 text-center dark:text-neutral-300 text-sm md:text-xl">

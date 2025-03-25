@@ -8,15 +8,10 @@ const Header = () => {
     <div className="flex items-center justify-between bg-[#51abb2] p-8 shadow-xl dark:bg-black">
       <Logo />
       <ul className="flex items-center justify-center gap-10 dark:text-white ">
-        <li>
-          <a href="#timeline">Journey</a>
-        </li>
+        <li>Journey</li>
         <li>Projects</li>
+        <li>Connect</li>
         <li>Try</li>
-        <li><a href="#education"></a>Education</li>
-        <li>
-          <a href="#connect">Connect</a>
-        </li>
         <li>
           <a
             href="./rahulkumar.pdf"
