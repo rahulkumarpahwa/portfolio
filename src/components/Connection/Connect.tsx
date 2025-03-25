@@ -27,8 +27,10 @@ const Connect = () => {
 
   return (
     data != undefined && (
-      <div>
-        <h2 className="text-center text-4xl italic font-serif font-bold antialiased ">Connect with Me!</h2>
+      <div id="connect">
+        <h2 className="text-center pt-20 mt-10 text-4xl italic font-serif font-bold antialiased ">
+          Connect with Me!
+        </h2>
         <div className="flex items-center justify-center gap-10 m-8 py-8 px-4">
           <LinkedinCard />
           <GithubCard data={data} />
