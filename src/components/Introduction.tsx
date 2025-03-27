@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Introduction = () => {
   return (
-    <div className="space-y-5">
-      <h1 className="text-5xl italic antialiased font-serif font-bold animate-bounce">
+    <div className="space-y-5 text-center md:text-left">
+      <h1 className="text-4xl md:text-5xl italic antialiased font-serif font-bold animate-bounce">
         Introduction
       </h1>
-      <p className="antialiased font-sans">
+      <p className="antialiased font-sans text-sm md:text-base lg:text-lg">
         A dedicated <b>SDE Intern</b> currently honing my skills at{" "}
         <Link href="https://salesine.com" className="font-bold hover:underline">
           Salesine

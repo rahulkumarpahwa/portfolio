@@ -7,7 +7,7 @@ const Logo = () => {
   };
 
   return (
-    <div id="home" className="w-[10%]">
+    <div id="home" className="w-24 md:w-32">
       <Image
         onClick={scrollToTop}
         src="/logo.png"

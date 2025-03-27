@@ -9,16 +9,13 @@ const Top = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  const toggleVisibility = () => {
-    if (
-      window.innerHeight + window.scrollY >=
-      document.documentElement.scrollHeight - 100
-    ) {
-      setIsVisible(true);
-    } else {
-      setIsVisible(false);
-    }
-  };
+   const toggleVisibility = () => {
+     if (window.scrollY > 300) {
+       setIsVisible(true);
+     } else {
+       setIsVisible(false);
+     }
+   };
 
   useEffect(() => {
     window.addEventListener("scroll", toggleVisibility);

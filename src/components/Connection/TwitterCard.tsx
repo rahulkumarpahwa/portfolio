@@ -5,7 +5,7 @@ import { SlCalender } from "react-icons/sl";
 
 const TwitterCard = () => {
   return (
-    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-1/3 h-[450px]  ">
+    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-full max-w-sm h-[450px]">
       <div className="float-left w-full bg-[#e9e5df] rounded-tl-lg rounded-tr-lg p-4">
         <div>
           <Image
@@ -36,7 +36,7 @@ const TwitterCard = () => {
         <Link
           target="_blank"
           href={"https://x.com/rahulkumarpahwa"}
-          className="rounded-full text px-3 py-2 mr-1 text-black font-bold  text-center  hover:bg-[#f8f2f2] bg-white"
+          className="rounded-full text px-3 py-2 mr-1 text-black font-bold text-center hover:bg-[#f8f2f2] bg-white"
         >
           Follow
         </Link>
@@ -60,9 +60,8 @@ const TwitterCard = () => {
             href={"https://x.com/rahulkumarpahwa/following"}
             className="flex items-center gap-0.5 hover:underline"
           >
-            {" "}
             <b>{224}</b> following
-          </Link>{" "}
+          </Link>
           <Link
             href={"https://x.com/rahulkumarpahwa/verified_followers"}
             target="_blank"

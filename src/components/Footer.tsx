@@ -4,28 +4,21 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <div className="bg-[#51abb2] text-white py-12 dark:bg-black">
-      <div
-        className="max-w-6xl  mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 sm:px-6 lg:px-8 
-      text-center sm:text-left lg:text-left   "
-      >
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 px-4 sm:px-6 lg:px-8 text-center sm:text-left">
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
-          <p className="mb-4 ">
-            <span className="flex items-center gap-2 py-1">
+          <p className="mb-4">
+            <span className="flex items-center justify-center sm:justify-start gap-2 py-1">
               <Image
                 src="/favicon.ico"
-                alt="Vercel Logo"
+                alt="Portfolio Logo"
                 className="dark:invert"
                 width={30}
                 height={24}
                 priority
-              />{" "}
-              <span> Portfolio</span>{" "}
+              />
+              <span>Portfolio</span>
             </span>
-            {/* <span>
-              authentication app which was build for the learning authentication
-              with nextjs.
-            </span> */}
           </p>
         </div>
         <div>
@@ -67,7 +60,7 @@ const Footer = () => {
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
-          <div className="flex flex-col">
+          <div className="flex flex-col items-center sm:items-start">
             <a
               href="#"
               className="hover:text-white transition-colors duration-300"

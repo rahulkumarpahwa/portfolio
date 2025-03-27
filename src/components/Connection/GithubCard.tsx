@@ -17,9 +17,8 @@ interface DATA {
 
 const GithubCard = ({ data }: DATA) => {
   return (
-    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-1/3 h-[450px] ">
-      <div className="w-full bg-[#e9e5df] rounded-tl-lg rounded-tr-lg p-4 ">
-        {" "}
+    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-full max-w-sm h-[450px]">
+      <div className="w-full bg-[#e9e5df] rounded-tl-lg rounded-tr-lg p-4">
         <Image
           src={"/GitHub_Logo.png"}
           height="1000"
@@ -63,11 +62,10 @@ const GithubCard = ({ data }: DATA) => {
           href={"https://github.com/rahulkumarpahwa?tab=followers"}
           className="flex items-center gap-0.5"
         >
-          {" "}
           <GoPeople />
           {data?.followers} followers
-        </Link>{" "}
-        <BsDot />{" "}
+        </Link>
+        <BsDot />
         <Link
           href={"https://github.com/rahulkumarpahwa?tab=following"}
           target="_blank"
