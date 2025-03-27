@@ -4,6 +4,7 @@ import DarkModeToggle from "./DarkModeToggle";
 import { AiOutlineCloudDownload } from "react-icons/ai";
 import { HiMenu, HiX } from "react-icons/hi";
 import Logo from "./Logo";
+import Link from "next/link";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -67,20 +68,28 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a
-                href="#projects"
+              <Link
+                href="/projects"
                 className="hover:text-[#e26639] transition-colors duration-300"
               >
                 Projects
-              </a>
+              </Link>
             </li>
             <li>
               <a
                 href="#connect"
-                className="hover:text-[#e26639] transition-colors duration-300"
+                className="hover:text-white transition-colors duration-300"
               >
                 Connect
               </a>
+            </li>
+            <li>
+              <Link
+                href={"/try"}
+                className="hover:text-white transition-colors duration-300"
+              >
+                Try
+              </Link>
             </li>
             <li>
               <a

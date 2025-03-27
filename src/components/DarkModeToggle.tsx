@@ -1,31 +1,42 @@
 "use client";
 import { IoIosSunny, IoIosMoon } from "react-icons/io";
+import { useState, useEffect } from "react";
 
 const DarkModeToggle = () => {
-  const changeTheme = () => {
-    const sun: any = document.querySelector(".sun");
-    const moon: any = document.querySelector(".moon");
+  const [isDarkMode, setIsDarkMode] = useState(false);
+
+  useEffect(() => {
+    // Initialize theme based on the current document state
     if (document.documentElement.classList.contains("dark")) {
-      document.documentElement.classList.toggle("dark");
-      moon.classList.add("hidden");
-      sun.classList.remove("hidden");
+      setIsDarkMode(true);
+    }
+  }, []);
+
+  const changeTheme = () => {
+    if (isDarkMode) {
+      // Switch to light mode
+      document.documentElement.classList.remove("dark");
+      setIsDarkMode(false);
     } else {
-      document.documentElement.classList.toggle("dark");
-      sun.classList.add("hidden");
-      moon.classList.remove("hidden");
+      // Switch to dark mode
+      document.documentElement.classList.add("dark");
+      setIsDarkMode(true);
     }
   };
 
   return (
     <div className="flex items-center gap-2">
-      <IoIosSunny
-        className="sun text-2xl md:text-3xl bg-white rounded-full border-black border p-1 cursor-pointer"
-        onClick={changeTheme}
-      />
-      <IoIosMoon
-        className="moon hidden text-2xl md:text-3xl bg-black text-white rounded-full border border-white p-1 cursor-pointer"
-        onClick={changeTheme}
-      />
+      {isDarkMode ? (
+        <IoIosSunny
+          className="text-2xl md:text-3xl bg-white text-black rounded-full border-black border p-1 cursor-pointer"
+          onClick={changeTheme}
+        />
+      ) : (
+        <IoIosMoon
+          className="text-2xl md:text-3xl bg-black text-white rounded-full border border-white p-1 cursor-pointer"
+          onClick={changeTheme}
+        />
+      )}
     </div>
   );
 };
