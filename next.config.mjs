@@ -6,6 +6,7 @@ const nextConfig = {
       "avatars.githubusercontent.com",
       "assets.aceternity.com",
       "www.apnapatiala.com",
+      "via.placeholder.com",
     ],
   },
 };
