@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const LinkedinCard = () => {
   return (
-    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-full max-w-sm h-[450px]">
+    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-full max-w-sm h-[500px]">
       <div className="w-full bg-[#e9e5df] rounded-tl-lg rounded-tr-lg p-4">
         <Image
           src={"./linkedin.svg"}

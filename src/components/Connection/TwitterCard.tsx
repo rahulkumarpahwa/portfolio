@@ -5,7 +5,7 @@ import { SlCalender } from "react-icons/sl";
 
 const TwitterCard = () => {
   return (
-    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-full max-w-sm h-[450px]">
+    <div className="flex items-start flex-col rounded-lg border border-[#e9e5df] w-full max-w-sm h-[500px]">
       <div className="float-left w-full bg-[#e9e5df] rounded-tl-lg rounded-tr-lg p-4">
         <div>
           <Image
