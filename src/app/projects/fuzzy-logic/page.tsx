@@ -3,6 +3,7 @@ import ImgCard from "@/components/projects/fuzzy/ImgCard";
 import Operators from "@/components/projects/fuzzy/Operators";
 import Reels from "@/components/projects/fuzzy/Reels";
 import Text from "@/components/projects/fuzzy/Text";
+import Image from "next/image";
 import React from "react";
 
 const BlogPage: React.FC = () => {
@@ -25,8 +26,8 @@ const BlogPage: React.FC = () => {
             Introduction
           </h2>
           <Text>
-            What do you the think as a tech guy is the easiest way to learn the
-            fuzzy logic? Just Goooooooooooooogle it! So that's what I did!
+            What do you think as a tech guy is the easiest way to learn the
+            fuzzy logic? Just Goooooooooooooogle it! So that&apos;s what I did!
           </Text>
         </section>
 
@@ -35,38 +36,38 @@ const BlogPage: React.FC = () => {
         <ImgCard src="/fuzzy-logic/2.png" caption="Meaning Of Logic" />
 
         <Text>
-          But Both of these does not represent the meaning so I then Search the
-          Fuzzy Logic as:{" "}
+          But both of these do not represent the meaning, so I then searched for
+          Fuzzy Logic as:
         </Text>
 
         <ImgCard src="/fuzzy-logic/3.png" caption="Meaning Of Fuzzy Logic" />
 
         <Text>
-          So, Basically the fuzzy logic means that something which makes the
-          Computer Behave like Human Brain.
+          So, basically, fuzzy logic means something that makes the computer
+          behave like a human brain.
         </Text>
-        <Text>But How? Right!</Text>
+        <Text>But how? Right!</Text>
 
         <Text>
-          So, Let&apos;s understand that with help of Example of Instagram.
+          So, let&apos;s understand that with the help of an example of
+          Instagram.
         </Text>
 
         <Text>How many of you use Instagram?</Text>
         <Text>I think a lot! Right!</Text>
 
         <Text>
-          One day I was scrolling Instagram as Like you and my IG Algo Knows
-          that:
+          One day I was scrolling Instagram like you, and my IG Algo knows that:
         </Text>
         <Text>
           <ol>
-            <li>1. Rahul Likes 90% cat videos.</li>
-            <li>2. Rahul Likes 70% memes.</li>
-            <li>3. Rahul Likes 80% food videos.</li>
+            <li>1. Rahul likes 90% cat videos.</li>
+            <li>2. Rahul likes 70% memes.</li>
+            <li>3. Rahul likes 80% food videos.</li>
           </ol>
         </Text>
 
-        <Text>And Based upon that I get videos like: </Text>
+        <Text>And based upon that, I get videos like: </Text>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center">
           <Reels
             title="Cat Video"
@@ -83,27 +84,40 @@ const BlogPage: React.FC = () => {
         </div>
 
         <Text>
-          Now, when IG wants to push a new video, a pic or a reel in my feed, of
-          course it will have to think about what is engaging and interesting to
-          me and show that on the feed, right?
+          Now, when IG wants to push a new video, a pic, or a reel in my feed,
+          of course, it will have to think about what is engaging and
+          interesting to me and show that on the feed, right?
         </Text>
 
         <Text>
-          And to solve this problem, here comes our Hero FUZZY LOGIC!{" "}
+          And to solve this problem, here comes our hero: FUZZY LOGIC!
         </Text>
 
-        <ImgCard src="/fuzzy-logic/4.png" caption="Hero Fuzzy Logic"></ImgCard>
-
         <div className="flex justify-center items-center mt-5">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            <Reels
-              title="A Cat Video Having Food and A Meme"
-              url="https://res.cloudinary.com/dwtcjjxwc/video/upload/v1743419604/fuzzy-logic/FrenchvsItalianCat_yesfur.mp4"
+          <div className="w-64">
+            <Image
+              src={"/fuzzy-logic/4.png"}
+              alt={"Hero Fuzzy Logic"}
+              className="w-full h-auto rounded-lg shadow-lg"
+              width={400} // Adjusted width to match Reels
+              height={300} // Adjusted height to match Reels
             />
           </div>
         </div>
 
-        <p className="text-sm text-gray-500 mt-3">
+        <Text>
+          And Based Upon the %age it shows me the Reel like a cat video having
+          food and a meme as:
+        </Text>
+
+        <div className="flex justify-center items-center mt-5 mx-auto w-80">
+            <Reels
+              title="A Cat Video Having Food and A Meme"
+              url="https://res.cloudinary.com/dwtcjjxwc/video/upload/v1743419604/fuzzy-logic/FrenchvsItalianCat_yesfur.mp4"
+            />
+        </div>
+
+        <p className="text-sm text-gray-500 mt-3 text-center">
           *Disclaimer: The videos displayed are not mine and are the property of
           their respective copyright holders.
         </p>

@@ -15,8 +15,8 @@ const ImgCard: React.FC<ImgCardProps> = ({ src, caption }) => {
                     src={src}
                     alt={caption}
                     className="mt-0.5 max-w-full h-auto rounded-lg shadow-lg"
-                    width={500} // Replace with appropriate width
-                    height={300} // Replace with appropriate height
+                    width={800} // Increased width
+                    height={600} // Increased height
                 />
                 <p className="mt-1">
                     {caption}

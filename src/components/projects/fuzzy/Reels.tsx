@@ -8,8 +8,8 @@ interface VideoProps {
 
 const Reels: React.FC<VideoProps> = ({ url, title }) => {
   return (
-    <div className="text-center p-5">
-      <div className="mx-auto">
+    <div className="flex justify-center items-center flex-col text-center p-5">
+      <div>
         <h3 className="text-lg font-medium mb-2">{title}</h3>
         <div className="bg-black rounded-lg overflow-hidden inline-block">
           {/* Display video at its original size */}
