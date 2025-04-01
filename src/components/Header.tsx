@@ -83,14 +83,14 @@ const Header = () => {
                 Connect
               </a>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href={"/try"}
                 className="hover:text-white transition-colors duration-300"
               >
                 Try
               </Link>
-            </li>
+            </li> */}
             <li>
               <a
                 href="./rahulkumar.pdf"
@@ -118,17 +118,17 @@ const Header = () => {
         >
           <ul className="flex flex-col gap-4 text-center text-black dark:text-white">
             <li className="hover:bg-[#e26639] hover:text-white transition-colors duration-300 px-4 py-2 rounded-md">
-              <a href="#timeline" className="block w-full">
+              <a href="/#timeline" className="block w-full">
                 Journey
               </a>
             </li>
             <li className="hover:bg-[#e26639] hover:text-white transition-colors duration-300 px-4 py-2 rounded-md">
-              <a href="#projects" className="block w-full">
+              <a href="/projects" className="block w-full">
                 Projects
               </a>
             </li>
             <li className="hover:bg-[#e26639] hover:text-white transition-colors duration-300 px-4 py-2 rounded-md">
-              <a href="#connect" className="block w-full">
+              <a href="/#connect" className="block w-full">
                 Connect
               </a>
             </li>

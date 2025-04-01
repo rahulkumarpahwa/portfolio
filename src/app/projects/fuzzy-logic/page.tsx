@@ -12,24 +12,23 @@ const BlogPage: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         {/* Header Section */}
         <header className="text-center mb-10">
-          <h1 className="text-4xl sm:text-6xl lg:text-9xl font-bold">
+          <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold">
             Fuzzy Logic
           </h1>
-          <p className="text-base sm:text-lg lg:text-xl mt-3">
+          <p className="text-sm sm:text-lg lg:text-xl mt-3">
             Exploring the concepts of fuzzy logic in real-world applications.
           </p>
         </header>
 
         {/* Introduction Section */}
-        <section className="mb-10">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-semibold mb-3 text-center">
-            Introduction
-          </h2>
-          <Text>
-            What do you think as a tech guy is the easiest way to learn the
-            fuzzy logic? Just Goooooooooooooogle it! So that&apos;s what I did!
-          </Text>
-        </section>
+
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 text-center">
+          Introduction
+        </h2>
+        <Text>
+          What do you think as a tech guy is the easiest way to learn the fuzzy
+          logic? Just Goooooooooooooogle it! So that&apos;s what I did!
+        </Text>
 
         <ImgCard src="/fuzzy-logic/1.png" caption="Meaning Of Fuzzy" />
 
@@ -40,7 +39,9 @@ const BlogPage: React.FC = () => {
           Fuzzy Logic as:
         </Text>
 
-        <ImgCard src="/fuzzy-logic/3.png" caption="Meaning Of Fuzzy Logic" />
+        <div className="flex justify-center">
+          <ImgCard src="/fuzzy-logic/3.png" caption="Meaning Of Fuzzy Logic" />
+        </div>
 
         <Text>
           So, basically, fuzzy logic means something that makes the computer
@@ -60,10 +61,10 @@ const BlogPage: React.FC = () => {
           One day I was scrolling Instagram like you, and my IG Algo knows that:
         </Text>
         <Text>
-          <ol>
-            <li>1. Rahul likes 90% cat videos.</li>
-            <li>2. Rahul likes 70% memes.</li>
-            <li>3. Rahul likes 80% food videos.</li>
+          <ol className="list-decimal list-inside">
+            <li>Rahul likes 90% cat videos.</li>
+            <li>Rahul likes 70% memes.</li>
+            <li>Rahul likes 80% food videos.</li>
           </ol>
         </Text>
 
@@ -94,51 +95,55 @@ const BlogPage: React.FC = () => {
         </Text>
 
         <div className="flex justify-center items-center mt-5">
-          <div className="w-64">
+          <div className="w-full sm:w-64">
             <Image
               src={"/fuzzy-logic/4.png"}
               alt={"Hero Fuzzy Logic"}
               className="w-full h-auto rounded-lg shadow-lg"
-              width={400} // Adjusted width to match Reels
-              height={300} // Adjusted height to match Reels
+              width={400}
+              height={300}
             />
           </div>
         </div>
 
         <Text>
-          And Based Upon the %age it shows me the Reel like a cat video having
-          food and a meme as:
+          And based upon the percentage, it shows me the reel like a cat video
+          having food and a meme as:
         </Text>
 
-        <div className="flex justify-center items-center mt-5 mx-auto w-80">
-            <Reels
-              title="A Cat Video Having Food and A Meme"
-              url="https://res.cloudinary.com/dwtcjjxwc/video/upload/v1743419604/fuzzy-logic/FrenchvsItalianCat_yesfur.mp4"
-            />
+        <div className="flex justify-center items-center mt-5 mx-auto w-full sm:w-80">
+          <Reels
+            title="A Cat Video Having Food and A Meme"
+            url="https://res.cloudinary.com/dwtcjjxwc/video/upload/v1743419604/fuzzy-logic/FrenchvsItalianCat_yesfur.mp4"
+          />
         </div>
 
-        <p className="text-sm text-gray-500 mt-3 text-center">
+        <p className="text-xs sm:text-sm text-gray-500 mt-3 text-center">
           *Disclaimer: The videos displayed are not mine and are the property of
           their respective copyright holders.
         </p>
+        <Text>
+          But now the new question that comes to my mind is how we got the %age
+          right?{" "}
+        </Text>
+        <ImgCard
+          src="/fuzzy-logic/5.png"
+          caption="Working of Instagram"
+        ></ImgCard>
+        <Text>
+          And to do that again our HERO comes and based upon the various factors
+          like watch time on the app, my likes, my comments, my followings and
+          all that combine which are called as knowledge base "fuzzy rule base
+          and and database" and based upon the Algo decide and creates a fuzzy
+          values for the content to be served and this loop goes on.
+        </Text>
 
-        {/* Application Section */}
-        <section className="mb-10">
-          <h2 className="text-3xl font-semibold mb-3">Applications</h2>
-          <ul className="list-disc list-inside">
-            <li>Control systems (e.g., air conditioners, washing machines)</li>
-            <li>Artificial intelligence and machine learning</li>
-            <li>Decision-making in uncertain environments</li>
-          </ul>
-        </section>
-
-        {/* Footer Section */}
-        <footer className="mt-10 border-t border-gray-300 pt-5 text-center">
-          <p>&copy; 2023 My Blog. All rights reserved.</p>
-        </footer>
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-5 text-center">
+          Fuzzy
+        </h2>
+        <Operators />
+        <CompositionCal />
       </div>
-      <Operators />
-      <CompositionCal />
     </div>
   );
 };
