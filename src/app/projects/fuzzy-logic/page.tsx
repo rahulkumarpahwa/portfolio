@@ -48,7 +48,7 @@ const BlogPage: React.FC = () => {
         <Text>But How? Right!</Text>
 
         <Text>
-          So, Lets understand that with help of Example of Instagram.{" "}
+          So, Let&apos;s understand that with help of Example of Instagram.
         </Text>
 
         <Text>How many of you use Instagram?</Text>
@@ -56,7 +56,7 @@ const BlogPage: React.FC = () => {
 
         <Text>
           One day I was scrolling Instagram as Like you and my IG Algo Knows
-          that:{" "}
+          that:
         </Text>
         <Text>
           <ol>
@@ -83,9 +83,9 @@ const BlogPage: React.FC = () => {
         </div>
 
         <Text>
-          Now, when IG wants to push a new video, a pic or a reel in my
-          feed, of course it will have to think about what is engaging and
-          interesting to me and show that on the feed, right?
+          Now, when IG wants to push a new video, a pic or a reel in my feed, of
+          course it will have to think about what is engaging and interesting to
+          me and show that on the feed, right?
         </Text>
 
         <Text>
