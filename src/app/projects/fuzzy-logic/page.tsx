@@ -133,8 +133,8 @@ const BlogPage: React.FC = () => {
         <Text>
           And to do that again our HERO comes and based upon the various factors
           like watch time on the app, my likes, my comments, my followings and
-          all that combine which are called as knowledge base "fuzzy rule base
-          and and database" and based upon the Algo decide and creates a fuzzy
+          all that combine which are called as knowledge base which includes fuzzy rule base
+          and and database and based upon the Algo decide and creates a fuzzy
           values for the content to be served and this loop goes on.
         </Text>
 
