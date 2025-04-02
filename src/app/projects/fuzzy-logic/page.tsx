@@ -5,6 +5,7 @@ import Reels from "@/components/projects/fuzzy/Reels";
 import Text from "@/components/projects/fuzzy/Text";
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const BlogPage: React.FC = () => {
   return (
@@ -19,9 +20,7 @@ const BlogPage: React.FC = () => {
             Exploring the concepts of fuzzy logic in real-world applications.
           </p>
         </header>
-
         {/* Introduction Section */}
-
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 text-center">
           Introduction
         </h2>
@@ -29,34 +28,26 @@ const BlogPage: React.FC = () => {
           What do you think as a tech guy is the easiest way to learn the fuzzy
           logic? Just Goooooooooooooogle it! So that&apos;s what I did!
         </Text>
-
         <ImgCard src="/fuzzy-logic/1.png" caption="Meaning Of Fuzzy" />
-
         <ImgCard src="/fuzzy-logic/2.png" caption="Meaning Of Logic" />
-
         <Text>
           But both of these do not represent the meaning, so I then searched for
           Fuzzy Logic as:
         </Text>
-
         <div className="flex justify-center">
           <ImgCard src="/fuzzy-logic/3.png" caption="Meaning Of Fuzzy Logic" />
         </div>
-
         <Text>
           So, basically, fuzzy logic means something that makes the computer
           behave like a human brain.
         </Text>
         <Text>But how? Right!</Text>
-
         <Text>
           So, let&apos;s understand that with the help of an example of
           Instagram.
         </Text>
-
         <Text>How many of you use Instagram?</Text>
         <Text>I think a lot! Right!</Text>
-
         <Text>
           One day I was scrolling Instagram like you, and my IG Algo knows that:
         </Text>
@@ -67,7 +58,6 @@ const BlogPage: React.FC = () => {
             <li>Rahul likes 80% food videos.</li>
           </ol>
         </Text>
-
         <Text>And based upon that, I get videos like: </Text>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 justify-center items-center">
           <Reels
@@ -83,17 +73,14 @@ const BlogPage: React.FC = () => {
             url="https://res.cloudinary.com/dwtcjjxwc/video/upload/v1743419604/fuzzy-logic/foodCheese_yofry8.mp4"
           />
         </div>
-
         <Text>
           Now, when IG wants to push a new video, a pic, or a reel in my feed,
           of course, it will have to think about what is engaging and
           interesting to me and show that on the feed, right?
         </Text>
-
         <Text>
           And to solve this problem, here comes our hero: FUZZY LOGIC!
         </Text>
-
         <div className="flex justify-center items-center mt-5">
           <div className="w-full sm:w-64">
             <Image
@@ -105,19 +92,16 @@ const BlogPage: React.FC = () => {
             />
           </div>
         </div>
-
         <Text>
           And based upon the percentage, it shows me the reel like a cat video
           having food and a meme as:
         </Text>
-
         <div className="flex justify-center items-center mt-5 mx-auto w-full sm:w-80">
           <Reels
             title="A Cat Video Having Food and A Meme"
             url="https://res.cloudinary.com/dwtcjjxwc/video/upload/v1743419604/fuzzy-logic/FrenchvsItalianCat_yesfur.mp4"
           />
         </div>
-
         <p className="text-xs sm:text-sm text-gray-500 mt-3 text-center">
           *Disclaimer: The videos displayed are not mine and are the property of
           their respective copyright holders.
@@ -138,7 +122,6 @@ const BlogPage: React.FC = () => {
           creates a fuzzy values for the content to be served and this loop goes
           on.
         </Text>
-
         <Text>Now, our next topic is :</Text>
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-5 text-center">
           Fuzzy Set
@@ -180,7 +163,6 @@ const BlogPage: React.FC = () => {
           src="/fuzzy-logic/8.png"
           caption="Crisp to Fuzzy Set"
         ></ImgCard>
-
         <Text>
           Fuzzy value tell us how much an element/ notation belongs to a set or
           not!
@@ -189,7 +171,6 @@ const BlogPage: React.FC = () => {
           src="/fuzzy-logic/9.png"
           caption="Crisp vs Fuzzy Set"
         ></ImgCard>
-
         <Text>Now, Lets us talk about the operations on the Fuzzy Set as:</Text>
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-5 text-center">
           Operations on Fuzzy set
@@ -254,7 +235,6 @@ const BlogPage: React.FC = () => {
             A = &#123;( x , μ<sub>A</sub>(x) ) | x ∈ X &#125;
           </code>
         </div>
-
         <ImgCard
           src="/fuzzy-logic/11.png"
           caption="Membership Function"
@@ -263,7 +243,6 @@ const BlogPage: React.FC = () => {
           src="/fuzzy-logic/12.png"
           caption="Values of Crisp Membership vs Fuzzy Membership"
         ></ImgCard>
-
         <Text>Now, our last topic is Composition:</Text>
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-5 text-center">
           Composition of Fuzzy Relations
@@ -278,98 +257,261 @@ const BlogPage: React.FC = () => {
           src="/fuzzy-logic/13.png"
           caption="Composition of Fuzzy Relations"
         ></ImgCard>
-
         <Text>Let&#x27;s understand with the help of an example:</Text>
-        <Text>Suppose we have to go to from Chandigarh to Delhi via Karnal and we will decide the route based upon the road quality and for that we will assign each path a fuzzy value.</Text>
-        <ImgCard src="/fuzzy-logic/14.png" caption="Chandigarh To Delhi Via Karnal"></ImgCard>
-
-        <Text>Now we have different options of going from the Chandigarh as A to Delhi as C</Text>
-        <ImgCard src="/fuzzy-logic/15.png" caption="Route from A to C"></ImgCard>
-
-        <Text>And if we represent this in the form of Relational Matric we can represent it as: </Text>
+        <Text>
+          Suppose we have to go to from Chandigarh to Delhi via Karnal and we
+          will decide the route based upon the road quality and for that we will
+          assign each path a fuzzy value.
+        </Text>
+        <ImgCard
+          src="/fuzzy-logic/14.png"
+          caption="Chandigarh To Delhi Via Karnal"
+        ></ImgCard>
+        <Text>
+          Now we have different options of going from the Chandigarh as A to
+          Delhi as C
+        </Text>
+        <ImgCard
+          src="/fuzzy-logic/15.png"
+          caption="Route from A to C"
+        ></ImgCard>
+        <Text>
+          And if we represent this in the form of Relational Matric we can
+          represent it as:{" "}
+        </Text>
         <div className="overflow-x-auto">
           <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
             <thead>
               <tr>
-          <th className="border border-black dark:border-white px-4 py-2"></th>
-          <th className="border border-black dark:border-white px-4 py-2">B</th>
-          <th className="border border-black dark:border-white px-4 py-2">D</th>
-          <th className="border border-black dark:border-white px-4 py-2">E</th>
+                <th className="border border-black dark:border-white px-4 py-2"></th>
+                <th className="border border-black dark:border-white px-4 py-2">
+                  B
+                </th>
+                <th className="border border-black dark:border-white px-4 py-2">
+                  D
+                </th>
+                <th className="border border-black dark:border-white px-4 py-2">
+                  E
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-          <td className="border border-black dark:border-white px-4 py-2">A</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.8</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.6</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
-              </tr>
-            </tbody>
-          </table>
-          <p className="text-center text-sm text-black-500 mt-2">From A to Diff. Routes</p>
-        </div>
-
-
-        <div className="overflow-x-auto mt-5">
-          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
-            <thead>
-              <tr>
-          <th className="border border-black dark:border-white px-4 py-2"></th>
-          <th className="border border-black dark:border-white px-4 py-2">B</th>
-          <th className="border border-black dark:border-white px-4 py-2">D</th>
-          <th className="border border-black dark:border-white px-4 py-2">E</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-          <td className="border border-black dark:border-white px-4 py-2">C</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.7</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.4</td>
-              </tr>
-            </tbody>
-          </table>
-          <p className="text-center text-sm text-black-500 mt-2">From Diff. Routes to C</p>
-        </div>
-
-        <div className="overflow-x-auto mt-5">
-          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
-            <thead>
-              <tr>
-          <th className="border border-black dark:border-white px-4 py-2">Route</th>
-          <th className="border border-black dark:border-white px-4 py-2">First Link</th>
-          <th className="border border-black dark:border-white px-4 py-2">Second Link</th>
-          <th className="border border-black dark:border-white px-4 py-2">Minimum</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-          <td className="border border-black dark:border-white px-4 py-2">A → B → C</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.8</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.7</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.7</td>
-              </tr>
-              <tr>
-          <td className="border border-black dark:border-white px-4 py-2">A → D → C</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.6</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
-              </tr>
-              <tr>
-          <td className="border border-black dark:border-white px-4 py-2">A → E → C</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.4</td>
-          <td className="border border-black dark:border-white px-4 py-2">0.4</td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  A
+                </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  0.8
+                </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  0.6
+                </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  0.5
+                </td>
               </tr>
             </tbody>
           </table>
           <p className="text-center text-sm text-black-500 mt-2">
-            Maximum value of all minimums: <strong>0.7</strong>. Best route: <strong>A → B → C</strong>.
+            From A to Diff. Routes
           </p>
         </div>
-
-
+        <div className="overflow-x-auto mt-5">
+          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left text-sm sm:text-base">
+            <thead>
+              <tr>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2"></th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  B
+                </th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  D
+                </th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  E
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  C
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.7
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.5
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.4
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="text-center text-xs sm:text-sm text-black-500 mt-2">
+            From Diff. Routes to C
+          </p>
+        </div>
+        <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold my-3 text-center">
+          Max-Min Composition
+        </h3>
+        <div className="overflow-x-auto mt-5">
+          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left text-sm sm:text-base">
+            <thead>
+              <tr>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  Route
+                </th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  First Link
+                </th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  Second Link
+                </th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  Minimum
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  A → B → C
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.8
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.7
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.7
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  A → D → C
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.6
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.5
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.5
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  A → E → C
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.5
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.4
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.4
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="text-center text-xs sm:text-sm text-black-500 mt-2">
+            Maximum value of all minimums: <strong>0.7</strong>. Best route:{" "}
+            <strong>A → B → C</strong>.
+          </p>
+        </div>
+        <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold my-3 text-center">
+          Max-Product Composition
+        </h3>
+        <div className="overflow-x-auto mt-5">
+          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left text-sm sm:text-base">
+            <thead>
+              <tr>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  Route
+                </th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  First Link
+                </th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  Second Link
+                </th>
+                <th className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  Product
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  A → B → C
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.8
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.7
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.56
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  A → D → C
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.6
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.5
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.3
+                </td>
+              </tr>
+              <tr>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  A → E → C
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.5
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.4
+                </td>
+                <td className="border border-black dark:border-white px-2 sm:px-4 py-2">
+                  0.2
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="text-center text-xs sm:text-sm text-black-500 mt-2">
+            Best route: <strong>A → B → C</strong>, with a fuzzy value of{" "}
+            <strong>0.56</strong>.
+          </p>
+        </div>
+        <Text>
+          The composition result tells us the overall quality of the route from
+          City A to City C, considering intermediate cities. This can help
+          decide which route to take when there are multiple options, ensuring
+          the smoothest journey.
+        </Text>
+        <Text>
+          The above calculations can be done using the values as well as below:
+        </Text>
         <CompositionCal />
+        <Text>
+          Thanks for reading the article. If you want to contribute you can
+          connect me{" "}
+          <Link href="/#connect" className="underline">
+            here
+          </Link>
+        </Text>{" "}
       </div>
     </div>
   );
