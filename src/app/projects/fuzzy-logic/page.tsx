@@ -133,19 +133,150 @@ const BlogPage: React.FC = () => {
         <Text>
           And to do that again our HERO comes and based upon the various factors
           like watch time on the app, my likes, my comments, my followings and
-          all that combine which are called as knowledge base which includes fuzzy rule base
-          and and database and based upon the Algo decide and creates a fuzzy
-          values for the content to be served and this loop goes on.
+          all that combine which are called as knowledge base which includes
+          fuzzy rule base and and database and based upon the Algo decide and
+          creates a fuzzy values for the content to be served and this loop goes
+          on.
         </Text>
 
+        <Text>Now, our next topic is :</Text>
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-5 text-center">
-          Fuzzy
+          Fuzzy Set
         </h2>
+        <Text>
+          Before understanding the fuzzy set, lets understand the topic of crisp
+          set, which is nothing but a nornal set as:
+        </Text>
+        <div className="flex items-center justify-center">
+          <code className="bg-black text-white p-5">
+            A = 1,2,3,4,5,6.........
+            <br />
+            Set of Numbers
+          </code>
+        </div>
+        <Text>
+          And, it is part of the Universe of Discourse of Numbers as:{" "}
+        </Text>
+        <ImgCard
+          src="/fuzzy-logic/6.png"
+          caption="Universe of discourse of Numbers"
+        ></ImgCard>
+        <Text>Likewise, We can have the Universe of Discourse of Cats:</Text>
+        <ImgCard
+          src="/fuzzy-logic/7.png"
+          caption="Universe of Discourse of Cats"
+        ></ImgCard>
+        <Text>
+          Okay! Let us see the fuzzy sets: so fuzzy sets are similar crisp ones
+          but they have values between 0 and 1 and these are generated from the
+          crisp set with the help of membership function.
+        </Text>
+        <div className="flex items-center justify-center">
+          <code className="bg-black text-white p-5">μA&#x2768;x&#x2769;</code>
+        </div>
+        <ImgCard
+          src="/fuzzy-logic/8.png"
+          caption="Crisp to Fuzzy Set"
+        ></ImgCard>
+
+        <Text>
+          Fuzzy value tell us how much an element/ notation belongs to a set or
+          not!
+        </Text>
+        <ImgCard
+          src="/fuzzy-logic/9.png"
+          caption="Crisp vs Fuzzy Set"
+        ></ImgCard>
+
+        <Text>Now, Lets us talk about the operations on the Fuzzy Set as:</Text>
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-5 text-center">
+          Operations on Fuzzy set
+        </h2>
+        <div className="overflow-x-auto">
+            <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
+            <thead>
+              <tr>
+              <th className="border border-black dark:border-white px-4 py-2">Operation</th>
+              <th className="border border-black dark:border-white px-4 py-2">
+                Formula (Membership Function μ_A(x))
+              </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+              <td className="border border-black dark:border-white px-4 py-2">Union (A ∪ B)</td>
+              <td className="border border-black dark:border-white px-4 py-2">
+                μ<sub>A ∪ B</sub>(x) = max(μ<sub>A</sub>(x), μ<sub>B</sub>(x))
+              </td>
+              </tr>
+              <tr>
+              <td className="border border-black dark:border-white px-4 py-2">
+                Intersection (A ∩ B)
+              </td>
+              <td className="border border-black dark:border-white px-4 py-2">
+                μ<sub>A ∩ B</sub>(x) = min(μ<sub>A</sub>(x), μ<sub>B</sub>(x))
+              </td>
+              </tr>
+              <tr>
+              <td className="border border-black dark:border-white px-4 py-2">
+                Complement (¬A)
+              </td>
+              <td className="border border-black dark:border-white px-4 py-2">
+                μ<sub>¬A</sub>(x) = 1 - μ<sub>A</sub>(x)
+              </td>
+              </tr>
+            </tbody>
+            </table>
+        </div>
+        <Text>So, the above operations can be done on the website as :</Text>
         <Operators />
+        <Text>Let&#x27;s us talk about the membership functions:</Text>
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-5 text-center">
+          Membership Functions
+        </h2>
+        <Text>
+          Membership functions are the one which make the find the fuzziness of
+          a value and define the fuzzy set. The values represented by the
+          membership functions are between 0 and 1 (including both 0 and 1){" "}
+        </Text>
+        <Text>
+          we can represent a fuzzy set as, the ordered pair of the element and
+          its membership value:
+        </Text>
+        <div className="flex items-center justify-center">
+          <code className="bg-black text-white p-5">
+            A = &#123;( x , μ<sub>A</sub>(x) ) | x ∈ X &#125;
+          </code>
+        </div>
+
+        <ImgCard
+          src="/fuzzy-logic/11.png"
+          caption="Membership Function"
+        ></ImgCard>
+        <ImgCard
+          src="/fuzzy-logic/12.png"
+          caption="Values of Crisp Membership vs Fuzzy Membership"
+        ></ImgCard>
+
+        <Text>Now, our last topic is Composition:</Text>
+        <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-5 text-center">
+          Composition of Fuzzy Relations
+        </h2>
+        <Text>
+          Composition refers to a mathematical operation that combines two fuzzy
+          relations to form a new relation. It essentially captures how the
+          relations interact with each other, enabling us to analyze multi-step
+          relationships.
+        </Text>
+        <ImgCard
+          src="/fuzzy-logic/13.png"
+          caption="Composition of Fuzzy Relations"
+        ></ImgCard>
+
+        <Text>Let&#x27;s understand with the help of an example:</Text>
         <CompositionCal />
       </div>
     </div>
   );
 };
-
 export default BlogPage;
