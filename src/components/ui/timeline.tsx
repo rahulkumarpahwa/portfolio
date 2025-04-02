@@ -47,11 +47,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
           Timeline
         </h2>
         <div className="text-neutral-700 text-center dark:text-neutral-300 text-sm md:text-xl">
-          I&apos;ve been working as a SDE Intern with{" "}
-          <Link className="font-bold" href="https://salesine.com">
-            Salesine
-          </Link>{" "}
-          for the past 6+ months.
+          I&apos;ve been pursuing Masters in Computer Applications from PU, CHD.
           <div className="text-neutral-700 text-center dark:text-neutral-300 text-sm md:text-xl">
             Here&apos;s a timeline of my journey.
           </div>

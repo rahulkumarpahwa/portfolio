@@ -33,7 +33,7 @@ const LinkedinCard = () => {
         Rahul K.
       </Link>
       <p className="p-2">
-        SDE Intern @salesine | Next.js | React.js | Redux-Toolkit | Tailwind CSS
+        Ex- Intern @salesine | Next.js | React.js | Redux-Toolkit | Tailwind CSS
         | Node.js | Express.js | MongoDB | HTML5 | CSS3 | JavaScript | Git |
         Github | Open to New Opportunities
       </p>
