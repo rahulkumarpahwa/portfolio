@@ -13,7 +13,7 @@ const BlogPage: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         {/* Header Section */}
         <header className="text-center mb-10">
-          <h1 className="text-3xl sm:text-5xl lg:text-7xl font-bold">
+          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold">
             Fuzzy Logic
           </h1>
           <p className="text-sm sm:text-lg lg:text-xl mt-3">
@@ -21,7 +21,7 @@ const BlogPage: React.FC = () => {
           </p>
         </header>
         {/* Introduction Section */}
-        <h2 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 text-center">
+        <h2 className="text-3xl sm:text-4xl lg:text-4xl font-semibold mb-3 text-center">
           Introduction
         </h2>
         <Text>

@@ -9,7 +9,7 @@ interface ImgCardProps {
 
 const ImgCard: React.FC<ImgCardProps> = ({ src, caption }) => {
     return (
-        <section className="flex items-center justify-center h-screen">
+        <section className="flex items-center justify-center">
             <div className="text-center">
                 <Image
                     src={src}

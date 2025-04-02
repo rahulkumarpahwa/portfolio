@@ -128,8 +128,8 @@ const CompositionCal: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-[#51abb2] text-black dark:text-white dark:bg-black p-4">
-      <h1 className="text-2xl font-bold mb-6">Fuzzy Matrix Composition</h1>
+    <div className="flex flex-col items-center justify-center p-16 bg-[#51abb2] text-black dark:text-white dark:bg-black p-4">
+      <h1 className="text-2xl font-bold mb-6 text-center">Fuzzy Matrix Composition</h1>
       <div className="w-full max-w-2xl">
         {step === "size" ? (
           <div className="flex flex-col gap-6">

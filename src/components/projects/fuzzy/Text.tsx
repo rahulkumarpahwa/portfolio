@@ -6,7 +6,7 @@ interface TextProps {
 
 const Text: React.FC<TextProps> = ({ children }) => {
   return (
-    <div className="flex justify-center items-center h-full w-full text-center p-4 box-border">
+    <div className="flex justify-center items-center h-full w-full text-center p-8 box-border">
       <p className="text-lg sm:text-xl break-words">{children}</p>
     </div>
   );
