@@ -148,8 +148,8 @@ const BlogPage: React.FC = () => {
           set, which is nothing but a nornal set as:
         </Text>
         <div className="flex items-center justify-center">
-          <code className="bg-black text-white p-5">
-            A = 1,2,3,4,5,6.........
+          <code className="bg-black text-white dark:border border-white p-5">
+            A = &#x2774; 1,2,3,4,5,6......... &#x2775;
             <br />
             Set of Numbers
           </code>
@@ -172,7 +172,9 @@ const BlogPage: React.FC = () => {
           crisp set with the help of membership function.
         </Text>
         <div className="flex items-center justify-center">
-          <code className="bg-black text-white p-5">μA&#x2768;x&#x2769;</code>
+          <code className="bg-black text-white dark:border border-white  p-5">
+            μA&#x2768;x&#x2769;
+          </code>
         </div>
         <ImgCard
           src="/fuzzy-logic/8.png"
@@ -193,40 +195,44 @@ const BlogPage: React.FC = () => {
           Operations on Fuzzy set
         </h2>
         <div className="overflow-x-auto">
-            <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
+          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
             <thead>
               <tr>
-              <th className="border border-black dark:border-white px-4 py-2">Operation</th>
-              <th className="border border-black dark:border-white px-4 py-2">
-                Formula (Membership Function μ_A(x))
-              </th>
+                <th className="border border-black dark:border-white px-4 py-2">
+                  Operation
+                </th>
+                <th className="border border-black dark:border-white px-4 py-2">
+                  Formula (Membership Function μ_A(x))
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-              <td className="border border-black dark:border-white px-4 py-2">Union (A ∪ B)</td>
-              <td className="border border-black dark:border-white px-4 py-2">
-                μ<sub>A ∪ B</sub>(x) = max(μ<sub>A</sub>(x), μ<sub>B</sub>(x))
-              </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  Union (A ∪ B)
+                </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  μ<sub>A ∪ B</sub>(x) = max(μ<sub>A</sub>(x), μ<sub>B</sub>(x))
+                </td>
               </tr>
               <tr>
-              <td className="border border-black dark:border-white px-4 py-2">
-                Intersection (A ∩ B)
-              </td>
-              <td className="border border-black dark:border-white px-4 py-2">
-                μ<sub>A ∩ B</sub>(x) = min(μ<sub>A</sub>(x), μ<sub>B</sub>(x))
-              </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  Intersection (A ∩ B)
+                </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  μ<sub>A ∩ B</sub>(x) = min(μ<sub>A</sub>(x), μ<sub>B</sub>(x))
+                </td>
               </tr>
               <tr>
-              <td className="border border-black dark:border-white px-4 py-2">
-                Complement (¬A)
-              </td>
-              <td className="border border-black dark:border-white px-4 py-2">
-                μ<sub>¬A</sub>(x) = 1 - μ<sub>A</sub>(x)
-              </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  Complement (¬A)
+                </td>
+                <td className="border border-black dark:border-white px-4 py-2">
+                  μ<sub>¬A</sub>(x) = 1 - μ<sub>A</sub>(x)
+                </td>
               </tr>
             </tbody>
-            </table>
+          </table>
         </div>
         <Text>So, the above operations can be done on the website as :</Text>
         <Operators />
@@ -244,7 +250,7 @@ const BlogPage: React.FC = () => {
           its membership value:
         </Text>
         <div className="flex items-center justify-center">
-          <code className="bg-black text-white p-5">
+          <code className="bg-black text-white dark:border border-white p-5">
             A = &#123;( x , μ<sub>A</sub>(x) ) | x ∈ X &#125;
           </code>
         </div>
@@ -274,6 +280,95 @@ const BlogPage: React.FC = () => {
         ></ImgCard>
 
         <Text>Let&#x27;s understand with the help of an example:</Text>
+        <Text>Suppose we have to go to from Chandigarh to Delhi via Karnal and we will decide the route based upon the road quality and for that we will assign each path a fuzzy value.</Text>
+        <ImgCard src="/fuzzy-logic/14.png" caption="Chandigarh To Delhi Via Karnal"></ImgCard>
+
+        <Text>Now we have different options of going from the Chandigarh as A to Delhi as C</Text>
+        <ImgCard src="/fuzzy-logic/15.png" caption="Route from A to C"></ImgCard>
+
+        <Text>And if we represent this in the form of Relational Matric we can represent it as: </Text>
+        <div className="overflow-x-auto">
+          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
+            <thead>
+              <tr>
+          <th className="border border-black dark:border-white px-4 py-2"></th>
+          <th className="border border-black dark:border-white px-4 py-2">B</th>
+          <th className="border border-black dark:border-white px-4 py-2">D</th>
+          <th className="border border-black dark:border-white px-4 py-2">E</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+          <td className="border border-black dark:border-white px-4 py-2">A</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.8</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.6</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="text-center text-sm text-black-500 mt-2">From A to Diff. Routes</p>
+        </div>
+
+
+        <div className="overflow-x-auto mt-5">
+          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
+            <thead>
+              <tr>
+          <th className="border border-black dark:border-white px-4 py-2"></th>
+          <th className="border border-black dark:border-white px-4 py-2">B</th>
+          <th className="border border-black dark:border-white px-4 py-2">D</th>
+          <th className="border border-black dark:border-white px-4 py-2">E</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+          <td className="border border-black dark:border-white px-4 py-2">C</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.7</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.4</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="text-center text-sm text-black-500 mt-2">From Diff. Routes to C</p>
+        </div>
+
+        <div className="overflow-x-auto mt-5">
+          <table className="table-auto border-collapse border border-black dark:border-white w-full text-left">
+            <thead>
+              <tr>
+          <th className="border border-black dark:border-white px-4 py-2">Route</th>
+          <th className="border border-black dark:border-white px-4 py-2">First Link</th>
+          <th className="border border-black dark:border-white px-4 py-2">Second Link</th>
+          <th className="border border-black dark:border-white px-4 py-2">Minimum</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+          <td className="border border-black dark:border-white px-4 py-2">A → B → C</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.8</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.7</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.7</td>
+              </tr>
+              <tr>
+          <td className="border border-black dark:border-white px-4 py-2">A → D → C</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.6</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
+              </tr>
+              <tr>
+          <td className="border border-black dark:border-white px-4 py-2">A → E → C</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.5</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.4</td>
+          <td className="border border-black dark:border-white px-4 py-2">0.4</td>
+              </tr>
+            </tbody>
+          </table>
+          <p className="text-center text-sm text-black-500 mt-2">
+            Maximum value of all minimums: <strong>0.7</strong>. Best route: <strong>A → B → C</strong>.
+          </p>
+        </div>
+
+
         <CompositionCal />
       </div>
     </div>

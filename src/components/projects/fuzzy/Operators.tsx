@@ -45,7 +45,7 @@ const Operators: React.FC = () => {
     };
 
     return (
-        <div className="flex items-center justify-center h-screen bg-[#51abb2] text-black dark:text-white">
+        <div className="flex items-center justify-center h-[90vh] bg-[#51abb2] text-black dark:bg-black dark:text-white">
             <div className="text-center">
                 <h1 className="text-2xl font-bold mb-4">Fuzzy Set Operations</h1>
                 <div className="mb-4">
