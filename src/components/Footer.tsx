@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-
+import Link from "next/link";
 const Footer = () => {
   return (
     <div className="bg-[#51abb2] text-white py-12 dark:bg-black">
@@ -8,16 +8,21 @@ const Footer = () => {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            <span className="flex items-center justify-center sm:justify-start gap-2 py-1">
-              <Image
-                src="/favicon.ico"
-                alt="Portfolio Logo"
-                className="dark:invert"
-                width={30}
-                height={24}
-                priority
-              />
-              <span>Portfolio</span>
+            <span>
+              <Link
+                className="flex items-center justify-center sm:justify-start gap-2 py-1"
+                 href={"/"}
+              >
+                <Image
+                  src="/favicon.ico"
+                  alt="Portfolio Logo"
+                  className="dark:invert"
+                  width={30}
+                  height={24}
+                  priority
+                />
+                <span>Portfolio</span>
+              </Link>
             </span>
           </p>
         </div>
@@ -26,7 +31,7 @@ const Footer = () => {
           <ul>
             <li>
               <a
-                href="#"
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
@@ -34,26 +39,18 @@ const Footer = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="/#timeline"
                 className="hover:text-white transition-colors duration-300"
               >
-                About
+                Journey
               </a>
             </li>
             <li>
               <a
-                href="#"
+                href="/#connect"
                 className="hover:text-white transition-colors duration-300"
               >
-                Login
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Signup
+                Connect
               </a>
             </li>
           </ul>
@@ -62,35 +59,35 @@ const Footer = () => {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <div className="flex flex-col items-center sm:items-start">
             <a
-              href="#"
+              href="https://linkedin.com/in/rahulkumarpahwa"
+              target="_blank"
               className="hover:text-white transition-colors duration-300"
             >
-              Facebook
+              Linkedin
             </a>
             <a
-              href="#"
+              href="https://x.com/rahulkumarpahwa"
+              target="_blank"
               className="hover:text-white transition-colors duration-300"
             >
-              Twitter
+              X (Twitter)
             </a>
             <a
-              href="#"
+              href="https://github.com/rahulkumarpahwa"
+              target="_blank"
               className="hover:text-white transition-colors duration-300"
             >
-              Instagram
+              GitHub
             </a>
           </div>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-          <p>New Delhi, India</p>
-          <p>Delhi 10001</p>
-          <p>Email: info@authapp.com</p>
-          <p>Phone: (123) 456-7890</p>
+          <p>Email: rahulkumarpahwa@gmail.com</p>
         </div>
       </div>
       <p className="text-center text-xs pt-8">
-        © 2024 Portfolio App. All rights reserved.
+        © 2025-26 RahulKumarPahwa . All rights reserved.
       </p>
     </div>
   );

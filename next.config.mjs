@@ -7,6 +7,7 @@ const nextConfig = {
       "assets.aceternity.com",
       "www.apnapatiala.com",
       "via.placeholder.com",
+      "res.cloudinary.com",
     ],
   },
 };

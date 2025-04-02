@@ -1,117 +1,106 @@
 [
-    {
-        "category": "Full Stack (Ejs + Express)",
-        "cards": [
-            {
-                "id": 1,
-                "title": "Portfolio Website",
-                "description": "A personal portfolio website to showcase projects and skills.",
-                "imageUrl": "https://assets.aceternity.com/pro/hero-sections.png",
-                "linkTitle": "View Live",
-                "href": "https://example.com/portfolio",
-                "githubUrl": "https://github.com/username/portfolio"
-            },
-            {
-                "id": 2,
-                "title": "E-commerce Platform",
-                "description": "An online store with payment gateway integration.",
-                "imageUrl": "https://assets.aceternity.com/templates/startup-1.webp",
-                "linkTitle": "View Live",
-                "href": "https://example.com/ecommerce",
-                "githubUrl": "https://github.com/username/ecommerce-platform"
-            }
-        ]
-    },
-    {
-        "category": "React Projects",
-        "cards": [
-            {
-                "id": 1,
-                "title": "Fitness Tracker App",
-                "description": "A mobile app to track fitness activities and goals.",
-                "imageUrl": "https://via.placeholder.com/150",
-                "linkTitle": "View Live",
-                "href": "https://example.com/fitness-tracker",
-                "githubUrl": "https://github.com/username/fitness-tracker"
-            },
-            {
-                "id": 2,
-                "title": "Recipe Finder",
-                "description": "An app to find and save your favorite recipes.",
-                "imageUrl": "https://via.placeholder.com/150",
-                "linkTitle": "View Live",
-                "href": "https://example.com/recipe-finder",
-                "githubUrl": "https://github.com/username/recipe-finder"
-            }
-        ]
-    },
-    {
-        "category": "Next.js",
-        "cards": [
-            {
-                "id": 1,
-                "title": "Sales Forecasting",
-                "description": "A machine learning model to predict future sales.",
-                "imageUrl": "https://via.placeholder.com/150",
-                "linkTitle": "View Live",
-                "href": "https://example.com/sales-forecasting",
-                "githubUrl": "https://github.com/username/sales-forecasting"
-            },
-            {
-                "id": 2,
-                "title": "Customer Segmentation",
-                "description": "Clustering customers based on purchasing behavior.",
-                "imageUrl": "https://via.placeholder.com/150",
-                "linkTitle": "View Live",
-                "href": "https://example.com/customer-segmentation",
-                "githubUrl": "https://github.com/username/customer-segmentation"
-            }
-        ]
-    },
-    {
-        "category": "Java Projects",
-        "cards": [
-            {
-                "id": 1,
-                "title": "2D Platformer Game",
-                "description": "A fun and engaging 2D platformer game.",
-                "imageUrl": "https://via.placeholder.com/150",
-                "linkTitle": "View Live",
-                "href": "https://example.com/2d-platformer",
-                "githubUrl": "https://github.com/username/2d-platformer"
-            },
-            {
-                "id": 2,
-                "title": "Puzzle Game",
-                "description": "A challenging puzzle game with multiple levels.",
-                "imageUrl": "https://via.placeholder.com/150",
-                "linkTitle": "View Live",
-                "href": "https://example.com/puzzle-game",
-                "githubUrl": "https://github.com/username/puzzle-game"
-            }
-        ]
-    },
-    {
-        "category": "Cpp Projects",
-        "cards": [
-            {
-                "id": 1,
-                "title": "Bank Management System",
-                "description": "A C++ program to manage bank accounts and transactions.",
-                "imageUrl": "https://via.placeholder.com/150",
-                "linkTitle": "View Live",
-                "href": "https://example.com/bank-management",
-                "githubUrl": "https://github.com/username/bank-management"
-            },
-            {
-                "id": 2,
-                "title": "Library Management System",
-                "description": "A C++ program to manage library books and users.",
-                "imageUrl": "https://via.placeholder.com/150",
-                "linkTitle": "View Live",
-                "href": "https://example.com/library-management",
-                "githubUrl": "https://github.com/username/library-management"
-            }
-        ]
-    }
+  {
+    "category": "AI & Soft Computing",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Fuzzy Logic",
+        "description": "Exploring the concepts of fuzzy logic in real-world applications.",
+        "imageUrl": "https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743584495/portfolio/fuzzy_pgmhzf.png",
+        "linkTitle": "rahulkumarpahwa.tech/projects/fuzzy-logic",
+        "href": "https://rahulkumarpahwa.tech/projects/fuzzy-logic",
+        "githubUrl": "https://github.com/username/fitness-tracker"
+      }
+    ]
+  },
+
+  {
+    "category": "React Projects",
+    "cards": [
+      {
+        "id": 1,
+        "title": "ਸਵਿਗੀ - Food Ordering App",
+        "description": "ਸਵਿਗੀ - Food Ordering App has been created as the part of learning react.",
+        "imageUrl": "https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743575795/portfolio/swiggy_nxlph5.png",
+        "linkTitle": "the-swiggy-app.vercel.app/",
+        "href": "https://the-swiggy-app.vercel.app/",
+        "githubUrl": "https://github.com/username/fitness-tracker"
+      },
+      {
+        "id": 2,
+        "title": "React-Redux Projects",
+        "description": "An app to which has multiple React and Redux Based applications.",
+        "imageUrl": "https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743575794/portfolio/reactreduxapp_catzu4.png",
+        "linkTitle": "react-redux-projects-rahul.netlify.app/",
+        "href": "https://react-redux-projects-rahul.netlify.app/",
+        "githubUrl": "https://github.com/username/recipe-finder"
+      }
+    ]
+  },
+
+  {
+    "category": "Full Stack (Ejs + Express)",
+    "cards": [
+      {
+        "id": 1,
+        "title": "WanderLust - A Full Stack Airbnb Clone",
+        "description": "Wanderlust: Airbnb clone for property listings, map, images, user comments.",
+        "imageUrl": "https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743575796/portfolio/wanderlust_ysgibd.png",
+        "linkTitle": "thewanderlust.onrender.com",
+        "href": "https://thewanderlust.onrender.com/listings",
+        "githubUrl": "https://github.com/username/portfolio"
+      },
+      {
+        "id": 2,
+        "title": "Homely.org",
+        "description": "A Full-Stack website that facilitates free housing for people affected by natural disasters and other emergencies like war or invasion.",
+        "imageUrl": "https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743575795/portfolio/homely_taak1h.png",
+        "linkTitle": "homely-org.onrender.com",
+        "href": "https://homely-org.onrender.com/homely",
+        "githubUrl": "https://github.com/username/ecommerce-platform"
+      }
+    ]
+  },
+  {
+    "category": "Next.js",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Portfolio - rahulkumarpahwa.tech",
+        "description": "A personal portfolio projects showing my journey and projects.",
+        "imageUrl": "https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743575795/portfolio/portfolio_to0dvb.png",
+        "linkTitle": "rahulkumarpahwa.tech",
+        "href": "https://rahulkumarpahwa.tech",
+        "githubUrl": "https://github.com/username/sales-forecasting"
+      }
+    ]
+  },
+  {
+    "category": "Java Projects",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Typing Speed Master",
+        "description": "A terminal based typing test",
+        "imageUrl": "https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743582854/portfolio/typing_kucf3d.png",
+        "linkTitle": "GitHub Link",
+        "href": "https://github.com/rahulkumarpahwa/java-projects",
+        "githubUrl": "https://github.com/username/2d-platformer"
+      }
+    ]
+  },
+  {
+    "category": "Cpp Projects",
+    "cards": [
+      {
+        "id": 1,
+        "title": "HangMan - Word Guessing Game",
+        "description": "A C++ based word guessing game played in terminal.",
+        "imageUrl": "https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743582856/portfolio/hangman_rptlb1.png",
+        "linkTitle": "GitHub Link",
+        "href": "https://github.com/rahulkumarpahwa/cpp/tree/main/Hangman",
+        "githubUrl": "https://github.com/username/bank-management"
+      }
+    ]
+  }
 ]
