@@ -62,7 +62,7 @@ const Header = () => {
             <li>
               <a
                 href="#timeline"
-                className="hover:text-[#e26639] transition-colors duration-300"
+                className="hover:text-white transition-colors duration-300"
               >
                 Journey
               </a>
@@ -70,7 +70,7 @@ const Header = () => {
             <li>
               <Link
                 href="/projects"
-                className="hover:text-[#e26639] transition-colors duration-300"
+                className="hover:text-white transition-colors duration-300"
               >
                 Projects
               </Link>
@@ -95,7 +95,7 @@ const Header = () => {
               <a
                 href="./rahulkumar.pdf"
                 download
-                className="flex gap-2 items-center justify-center hover:text-[#e26639] transition-colors duration-300"
+                className="flex gap-2 items-center justify-center hover:text-white transition-colors duration-300"
               >
                 <AiOutlineCloudDownload className="font-bold text-xl" />
                 <span>CV</span>

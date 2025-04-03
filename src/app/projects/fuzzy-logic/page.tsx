@@ -13,9 +13,13 @@ const BlogPage: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         {/* Header Section */}
         <header className="text-center mb-10">
-          <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold">
-            Fuzzy Logic
-          </h1>
+            <a
+              href="./fuzzy_logic.pptx"
+              className="text-4xl sm:text-5xl lg:text-7xl font-bold"
+              download
+            >
+              Fuzzy Logic
+            </a>
           <p className="text-sm sm:text-lg lg:text-xl mt-3">
             Exploring the concepts of fuzzy logic in real-world applications.
           </p>
