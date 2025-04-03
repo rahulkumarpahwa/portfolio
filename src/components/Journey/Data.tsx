@@ -5,7 +5,27 @@ import Link from "next/link";
 const Data = () => {
   return [
     {
-      title: "2024",
+      title: "Sept, 2024 - Present",
+      content: (
+        <div>
+          <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-normal mb-8">
+            Accepted into MCA 2024 program, Department of Computer Science and
+            Applications, Panjab University, Chandigarh.
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <Image
+              src="https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743647690/portfolio/pu-gandhi-bhawan_qhij5d.jpg"
+              alt="hero template"
+              width={500}
+              height={500}
+              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            />
+          </div>
+        </div>
+      ),
+    },
+    {
+      title: "July, 2024 - Jan, 2025",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-normal mb-8">
@@ -34,7 +54,7 @@ const Data = () => {
       ),
     },
     {
-      title: "Early 2023",
+      title: "July, 2024 - Aug, 2024",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-normal mb-8">
@@ -62,7 +82,7 @@ const Data = () => {
       ),
     },
     {
-      title: "2017-2020",
+      title: "April, 2024 - May, 2024",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-normal mb-4">
@@ -77,7 +97,7 @@ const Data = () => {
             user-friendly interfaces, optimized website performance, and
             implemented responsive design for various devices.
           </p>
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-lg">
               <Image
                 src="/checkmark.png"
@@ -88,7 +108,7 @@ const Data = () => {
               />{" "}
               Completed My Graduation.
             </div>
-          </div>
+          </div> */}
           <div className="grid grid-cols-2 gap-4">
             <Image
               src="https://res.cloudinary.com/dwtcjjxwc/image/upload/v1743588056/portfolio/techaintern_pmfqx4.png"
@@ -102,11 +122,11 @@ const Data = () => {
       ),
     },
     {
-      title: "2017",
+      title: "Mar, 2024 - April, 2024",
       content: (
         <div>
           <p className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-normal mb-4">
-            Full Stack Developer Intern at {" "}
+            Full Stack Developer Intern at{" "}
             <Link
               href="https://www.linkedin.com/company/bharat-intern/"
               className="font-bold hover:underline"
@@ -118,7 +138,7 @@ const Data = () => {
             and integrated front-end and back-end components for seamless
             functionality.
           </p>
-          <div className="mb-8">
+          {/* <div className="mb-8">
             <div className="flex gap-2 items-center text-neutral-700 dark:text-neutral-300 text-sm md:text-lg">
               <Image
                 src="/checkmark.png"
@@ -129,16 +149,8 @@ const Data = () => {
               />{" "}
               Completed My Graduation.
             </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <Image
-              src="/assests/slide-12.png"
-              alt="hero template"
-              width={500}
-              height={500}
-              className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
-            />
-          </div>
+          </div> */}
+          <div className="grid grid-cols-2 gap-4"></div>
         </div>
       ),
     },
