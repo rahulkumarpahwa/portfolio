@@ -1,0 +1,3199 @@
+[{
+    "step": "Step 1",
+    "name": "Learn the basics",
+    "substeps": [
+      {
+        "substep": "Step 1.1",
+        "name": "Things to Know in C++/Java/Python or any language",
+        "problems": [
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/EAR7De6Goz4?t=250",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/EAR7De6Goz4?t=757",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/EAR7De6Goz4?t=1258",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/EAR7De6Goz4?t=2110",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/EAR7De6Goz4?t=2410",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/EAR7De6Goz4?t=3092",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/EAR7De6Goz4?t=3459",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/EAR7De6Goz4?t=3678",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/FPu9Uld7W-E",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 1.2",
+        "name": "Build-up Logical Thinking",
+        "problems": [
+          {
+            "topic": "Patterns",
+            "gfg": "",
+            "video": "https://www.youtube.com/watch?v=tNm_NNSB3_w&list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz&index=3",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 1.3",
+        "name": "Learn STL/Java-Collections or similar thing in your language",
+        "problems": [
+          {
+            "topic": "Java Collections orC++ STL",
+            "gfg": "",
+            "video": "https://www.youtube.com/watch?v=RRVYpIET_RU",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 1.4",
+        "name": "Know Basic Maths",
+        "problems": [
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/1xNbjMdbjug?t=588",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/1xNbjMdbjug?t=931",
+            "video": "https://leetcode.com/problems/reverse-integer/",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/1xNbjMdbjug?t=1235",
+            "video": "https://leetcode.com/problems/palindrome-number/",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/1xNbjMdbjug?t=2688",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/1xNbjMdbjug?t=1423",
+            "video": "https://leetcode.com/problems/armstrong-number/",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/1xNbjMdbjug?t=1580",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "",
+            "gfg": "https://youtu.be/1xNbjMdbjug?t=2385",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 1.5",
+        "name": "Learn Basic Recursion",
+        "problems": [
+          {
+            "topic": "Understand recursion by print something N times",
+            "gfg": "https://bit.ly/3K2epHv",
+            "video": "https://www.youtube.com/watch?v=yVdKa8dnKiE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9",
+            "leetcode": ""
+          },
+          {
+            "topic": "Print name N times using recursion",
+            "gfg": "https://bit.ly/3y2BiWz",
+            "video": "https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=2",
+            "leetcode": ""
+          },
+          {
+            "topic": "Print 1 to N using recursion",
+            "gfg": "https://bit.ly/3w3qhDh",
+            "video": "https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=2",
+            "leetcode": ""
+          },
+          {
+            "topic": "Print N to 1 using recursion",
+            "gfg": "https://bit.ly/3LOkcBn",
+            "video": "https://www.youtube.com/watch?v=un6PLygfXrA&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=2",
+            "leetcode": ""
+          },
+          {
+            "topic": "Sum of first N numbers",
+            "gfg": "https://bit.ly/3C9KZ8G",
+            "video": "https://www.youtube.com/watch?v=69ZCDFy-OUo&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=3",
+            "leetcode": ""
+          },
+          {
+            "topic": "Factorial of N numbers",
+            "gfg": "https://bit.ly/3QugUVo",
+            "video": "https://www.youtube.com/watch?v=69ZCDFy-OUo&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=3",
+            "leetcode": ""
+          },
+          {
+            "topic": "Reverse an array",
+            "gfg": "https://bit.ly/3SRqzXU",
+            "video": "https://www.youtube.com/watch?v=twuC1F6gLI8&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=4",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check if a string is palindrome or not",
+            "gfg": "https://bit.ly/3w2G4T5",
+            "video": "https://www.youtube.com/watch?v=twuC1F6gLI8&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=4",
+            "leetcode": "https://leetcode.com/problems/valid-palindrome/"
+          },
+          {
+            "topic": "Fibonacci Number",
+            "gfg": "https://bit.ly/3QUkkk2",
+            "video": "https://www.youtube.com/watch?v=kvRjNm4rVBE&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=5",
+            "leetcode": "https://leetcode.com/problems/fibonacci-number/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 1.6",
+        "name": "Learn Basic Hashing",
+        "problems": [
+          {
+            "topic": "Hashing Theory",
+            "gfg": "",
+            "video": "https://www.youtube.com/watch?v=KEs5UyBJ39g&t=1394s",
+            "leetcode": ""
+          },
+          {
+            "topic": "Counting frequencies of array elements",
+            "gfg": "https://practice.geeksforgeeks.org/problems/frequency-of-array-elements-1587115620/0",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find the highest/lowest frequency element",
+            "gfg": "https://practice.geeksforgeeks.org/problems/top-k-frequent-elements-in-array/1",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 2",
+    "name": "Learn Important Sorting Techniques",
+    "substeps": [
+      {
+        "substep": "Step 2.1",
+        "name": "Sorting-I",
+        "problems": [
+          {
+            "topic": "Selection Sort",
+            "gfg": "https://bit.ly/3ppA6YJ",
+            "video": "https://youtu.be/HGk_ypEuS24?t=166",
+            "leetcode": ""
+          },
+          {
+            "topic": "Bubble Sort",
+            "gfg": "https://bit.ly/3w6yQx8",
+            "video": "https://youtu.be/HGk_ypEuS24?t=1061",
+            "leetcode": ""
+          },
+          {
+            "topic": "Insertion Sort",
+            "gfg": "https://bit.ly/3JVcqot",
+            "video": "https://youtu.be/HGk_ypEuS24?t=1901",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 2.2",
+        "name": "Sorting-II",
+        "problems": [
+          {
+            "topic": "Merge Sort",
+            "gfg": "https://bit.ly/3A30Anw",
+            "video": "https://youtu.be/ogjf7ORKfd8",
+            "leetcode": ""
+          },
+          {
+            "topic": "Recursive Bubble Sort",
+            "gfg": "https://bit.ly/3QV65vI",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Recursive Insertion Sort",
+            "gfg": "https://bit.ly/3PxAWx1",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Quick Sort",
+            "gfg": "https://bit.ly/3dsEbIK",
+            "video": "https://youtu.be/WIrA4YexLRQ",
+            "leetcode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 3",
+    "name": "Solve Problems on Arrays [Easy ->Medium ->Hard]",
+    "substeps": [
+      {
+        "substep": "Step 3.1",
+        "name": "Easy",
+        "problems": [
+          {
+            "topic": "Largest Element in an Array",
+            "gfg": "https://bit.ly/3Pld280",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Second Largest Element in an Array without sorting",
+            "gfg": "https://bit.ly/3pFvBcN",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check if the array is sorted",
+            "gfg": "https://bit.ly/3Ap9U6F",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/#:~:text=Input%3A%20nums%20%3D%20%5B2%2C,no%20rotation)%20to%20make%20nums."
+          },
+          {
+            "topic": "Remove duplicates from Sorted array",
+            "gfg": "https://bit.ly/3w7b6ck",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/#:~:text=Input%3A%20nums%20%3D%20%5B0%2C,%2C%203%2C%20and%204%20respectively."
+          },
+          {
+            "topic": "Left Rotate an array by one place",
+            "gfg": "https://bit.ly/3dnn9vC",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/rotate-array/"
+          },
+          {
+            "topic": "Left rotate an array by D places",
+            "gfg": "https://bit.ly/3dyCKZg",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/rotate-array/"
+          },
+          {
+            "topic": "Move Zeros to end",
+            "gfg": "https://bit.ly/3PrGIjT",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/move-zeroes/"
+          },
+          {
+            "topic": "Linear Search",
+            "gfg": "https://bit.ly/3KcpHcB",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find the Unionandintersection of two sorted arrays",
+            "gfg": "https://bit.ly/3Ap7Onp",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find missing number in an array",
+            "gfg": "https://bit.ly/3A2pKTh",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/missing-number/"
+          },
+          {
+            "topic": "Maximum Consecutive Ones",
+            "gfg": "https://bit.ly/3piuaAN",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/max-consecutive-ones/"
+          },
+          {
+            "topic": "Find the number that appears once, and other numbers twice.",
+            "gfg": "https://bit.ly/3dudCD8",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/single-number/"
+          },
+          {
+            "topic": "Longest subarray with given sum(Positives)",
+            "gfg": "",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Longest subarray with given sum(Positives + Negatives)",
+            "gfg": "https://bit.ly/3dyZdp3",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 3.2",
+        "name": "Medium",
+        "problems": [
+          {
+            "topic": "2Sum Problem",
+            "gfg": "https://bit.ly/3SVYU8f",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/two-sum/"
+          },
+          {
+            "topic": "Sort an array of 0 \u2019s 1 \u2019s and 2 \u2019s",
+            "gfg": "https://bit.ly/3dsROaZ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/sort-colors/"
+          },
+          {
+            "topic": "Majority Element (>n/2 times)",
+            "gfg": "https://bit.ly/3SSpeA3",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/majority-element/"
+          },
+          {
+            "topic": "Kadane \u2019s Algorithm, maximum subarray sum",
+            "gfg": "https://bit.ly/3dzyloY",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximum-subarray/"
+          },
+          {
+            "topic": "Print the subarray with maximum sum",
+            "gfg": "",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Stock Buy and Sell",
+            "gfg": "https://bit.ly/3Qrx6H9",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+          },
+          {
+            "topic": "Rearrange the array in alternating positive and negative items",
+            "gfg": "https://bit.ly/3Qr3sSs",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/rearrange-array-elements-by-sign/"
+          },
+          {
+            "topic": "Next Permutation",
+            "gfg": "https://bit.ly/3dug78u",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/next-permutation/"
+          },
+          {
+            "topic": "Leaders in an Array problem",
+            "gfg": "https://bit.ly/3bZqbGc",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Longest Consecutive Sequence in an Array",
+            "gfg": "https://bit.ly/3ApytAD",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-consecutive-sequence/solution/"
+          },
+          {
+            "topic": "Set Matrix Zeros",
+            "gfg": "https://bit.ly/3SVaSig",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/set-matrix-zeroes/"
+          },
+          {
+            "topic": "Rotate Matrix by 90 degrees",
+            "gfg": "https://bit.ly/3PqpeV8",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/rotate-image/"
+          },
+          {
+            "topic": "Print the matrix in spiral manner",
+            "gfg": "https://bit.ly/3ppEJ53",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/spiral-matrix/"
+          },
+          {
+            "topic": "Find number of subarrays with sum K",
+            "gfg": "http://bit.ly/3Kn10eZ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/subarray-sum-equals-k/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 3.3",
+        "name": "Hard",
+        "problems": [
+          {
+            "topic": "Pascal \u2019s Triangle",
+            "gfg": "https://bit.ly/3C95qlR",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/pascals-triangle/"
+          },
+          {
+            "topic": "Majority Element (n/3 times)",
+            "gfg": "https://bit.ly/3ULsluv",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/majority-element-ii/"
+          },
+          {
+            "topic": "3-Sum Problem",
+            "gfg": "https://bit.ly/3C9uTvQ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/3sum/"
+          },
+          {
+            "topic": "4-Sum Problem",
+            "gfg": "https://bit.ly/3psQR53",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/4sum/"
+          },
+          {
+            "topic": "Count number of subarrays with given xor K",
+            "gfg": "https://bit.ly/3PrvhZs",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Merge Overlapping Subintervals",
+            "gfg": "https://bit.ly/3zRz904",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/merge-intervals/"
+          },
+          {
+            "topic": "Merge two sorted arrays without extra space",
+            "gfg": "https://bit.ly/3zRzmAo",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/merge-sorted-array/"
+          },
+          {
+            "topic": "Find the repeating and missing number",
+            "gfg": "https://bit.ly/3zWZoCs",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Count Inversions",
+            "gfg": "https://bit.ly/3PtLWLM",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Reverse Pairs",
+            "gfg": "https://bit.ly/3UVC0hE",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/reverse-pairs/"
+          },
+          {
+            "topic": "Maximum Product Subarray",
+            "gfg": "https://bit.ly/3PrlQsU",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximum-product-subarray/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 4",
+    "name": "Binary Search [1D, 2D Arrays, Search Space]",
+    "substeps": [
+      {
+        "substep": "Step 4.1",
+        "name": "Learning BS on 1D Arrays",
+        "problems": [
+          {
+            "topic": "Binary Search to find X in sorted array",
+            "gfg": "https://bit.ly/3QtKBpO",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-search/"
+          },
+          {
+            "topic": "Implement Lower Bound",
+            "gfg": "https://bit.ly/3Cf398N",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Implement Upper Bound",
+            "gfg": "https://bit.ly/3CgDDjE",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Search Insert Position",
+            "gfg": "https://bit.ly/3pFDbUN",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/search-insert-position/#:~:text=Search%20Insert%20Position%20%2D%20LeetCode&text=Given%20a%20sorted%20array%20of,(log%20n)%20runtime%20complexity."
+          },
+          {
+            "topic": "Floor/Ceil in Sorted Array",
+            "gfg": "",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find the first or last occurrence of a given number in a sorted array",
+            "gfg": "https://bit.ly/3QuCFEP",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/"
+          },
+          {
+            "topic": "Count occurrences of a number in a sorted array with duplicates",
+            "gfg": "https://bit.ly/3SVcOqW",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find peak element",
+            "gfg": "https://bit.ly/3Apsuf3",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/find-peak-element/#:~:text=Find%20Peak%20Element%20%2D%20LeetCode&text=A%20peak%20element%20is%20an,to%20any%20of%20the%20peaks."
+          },
+          {
+            "topic": "Search in Rotated Sorted Array I",
+            "gfg": "https://bit.ly/3QH471y",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array/"
+          },
+          {
+            "topic": "Search in Rotated Sorted Array II",
+            "gfg": "https://bit.ly/3Rm85Nb",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"
+          },
+          {
+            "topic": "Find minimum in Rotated Sorted Array",
+            "gfg": "https://bit.ly/3Az1OJ3",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/"
+          },
+          {
+            "topic": "Find out how many times has an array been rotated",
+            "gfg": "https://bit.ly/3dEvWJD",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Single element in a Sorted Array",
+            "gfg": "https://bit.ly/3AllLTj",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/single-element-in-a-sorted-array/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 4.2",
+        "name": "Applying BS on 2D Arrays",
+        "problems": [
+          {
+            "topic": "Find the row with maximum number of 1 \u2019s",
+            "gfg": "https://bit.ly/3QNDw2W",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Search in a 2 D matrix",
+            "gfg": "https://bit.ly/3dAwi3Z",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/search-a-2d-matrix/"
+          },
+          {
+            "topic": "Find Peak Element",
+            "gfg": "https://bit.ly/3A3mBmf",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/find-a-peak-element-ii/"
+          },
+          {
+            "topic": "Matrix Median",
+            "gfg": "https://bit.ly/3PvwuPk",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 4.3",
+        "name": "Find Answers by BS in Search Space",
+        "problems": [
+          {
+            "topic": "Find square root of a number in log n",
+            "gfg": "https://bit.ly/3JXtGcE",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find the Nth root of a number using binary search",
+            "gfg": "https://bit.ly/3zWNyrL",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Koko Eating Bananas",
+            "gfg": "https://bit.ly/3LSY491",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/koko-eating-bananas/"
+          },
+          {
+            "topic": "Minimum days to make M bouquets",
+            "gfg": "https://bit.ly/3CJ9Ezm",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/"
+          },
+          {
+            "topic": "Find the smallest Divisor",
+            "gfg": "https://bit.ly/3SJogFR",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/"
+          },
+          {
+            "topic": "Capacity to Ship Packages within D Days",
+            "gfg": "https://bit.ly/3PBInmS",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/"
+          },
+          {
+            "topic": "Median of two sorted arrays",
+            "gfg": "https://bit.ly/3K1HwL4",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+          },
+          {
+            "topic": "Aggressive Cows",
+            "gfg": "https://bit.ly/3rBuE5Z",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Book Allocation Problem",
+            "gfg": "https://bit.ly/3QMrMxP",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Split array \u2013Largest Sum",
+            "gfg": "https://bit.ly/3Qx0RGs",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/split-array-largest-sum/"
+          },
+          {
+            "topic": "Kth Missing Positive Number",
+            "gfg": "https://bit.ly/3bUFY9l",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/kth-missing-positive-number/#:~:text=Given%20an%20array%20arr%20of,13%2C...%5D."
+          },
+          {
+            "topic": "Minimize Max Distance to Gas Station",
+            "gfg": "https://bit.ly/3s40ybG",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimize-max-distance-to-gas-station/"
+          },
+          {
+            "topic": "Median of 2 sorted arrays",
+            "gfg": "https://bit.ly/3QPi7Xp",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/median-of-two-sorted-arrays/"
+          },
+          {
+            "topic": "Kth element of 2 sorted arrays",
+            "gfg": "https://bit.ly/3Amcomr",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 5",
+    "name": "Strings [Basic and Medium]",
+    "substeps": [
+      {
+        "substep": "Step 5.1",
+        "name": "Basic and Easy String Problems",
+        "problems": [
+          {
+            "topic": "Remove outermost Paranthesis",
+            "gfg": "https://bit.ly/3rzwRix",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/remove-outermost-parentheses/"
+          },
+          {
+            "topic": "Reverse words in a given string / Palindrome Check",
+            "gfg": "https://bit.ly/3SXyWB4",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/reverse-words-in-a-string/"
+          },
+          {
+            "topic": "Largest odd number in a string",
+            "gfg": "https://bit.ly/3UII5yp",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/largest-odd-number-in-string/"
+          },
+          {
+            "topic": "Longest Common Prefix",
+            "gfg": "https://bit.ly/3QKCyVu",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-common-prefix/"
+          },
+          {
+            "topic": "Isomorphic String",
+            "gfg": "https://bit.ly/3QwynwI",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/isomorphic-strings/"
+          },
+          {
+            "topic": "check whether one string is a rotation of another",
+            "gfg": "https://bit.ly/3K0HHq5",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/rotate-string/"
+          },
+          {
+            "topic": "Check if two strings are anagram of each other",
+            "gfg": "https://bit.ly/3SkMyoX",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/valid-anagram/#:~:text=Given%20two%20strings%20s%20and,the%20original%20letters%20exactly%20once.&text=Constraints%3A,.length%20%3C%3D%205%20*%2010"
+          }
+        ]
+      },
+      {
+        "substep": "Step 5.2",
+        "name": "Medium String Problems",
+        "problems": [
+          {
+            "topic": "Sort Characters by frequency",
+            "gfg": "https://bit.ly/3dEQp1d",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/sort-characters-by-frequency/"
+          },
+          {
+            "topic": "Maximum Nesting Depth of Paranthesis",
+            "gfg": "https://bit.ly/3xYlR1F",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/"
+          },
+          {
+            "topic": "Roman Number to Integer and vice versa",
+            "gfg": "https://bit.ly/3AqBlNv",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/roman-to-integer/"
+          },
+          {
+            "topic": "Implement Atoi",
+            "gfg": "https://bit.ly/3QUHBmf",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/string-to-integer-atoi/"
+          },
+          {
+            "topic": "Count Number of Substrings",
+            "gfg": "https://bit.ly/3CfQfYi",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Longest Palindromic Substring[Do it without DP]",
+            "gfg": "https://bit.ly/3CeQ27D",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-palindromic-substring/"
+          },
+          {
+            "topic": "Sum of Beauty of all substring",
+            "gfg": "https://bit.ly/3LRh089",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/sum-of-beauty-of-all-substrings/"
+          },
+          {
+            "topic": "Reverse Every Word in A String",
+            "gfg": "https://bit.ly/3Ul0iSq",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/reverse-words-in-a-string/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 6",
+    "name": "Learn LinkedList [Single/Double LL, Medium, Hard]",
+    "substeps": [
+      {
+        "substep": "Step 6.1",
+        "name": "Learn 1D LinkedList",
+        "problems": [
+          {
+            "topic": "Introduction to LinkedList, learn about struct, and how is node represented",
+            "gfg": "https://bit.ly/3URZnst",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Inserting a node in LinkedList",
+            "gfg": "https://bit.ly/3w9pEIt",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Deleting a node in LinkedList",
+            "gfg": "https://bit.ly/3Apg5aX",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/delete-node-in-a-linked-list/"
+          },
+          {
+            "topic": "Find the length of the linkedlist [learn traversal]",
+            "gfg": "https://bit.ly/3Po7tpf",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Search an element in the LL",
+            "gfg": "https://bit.ly/3Epriup",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 6.2",
+        "name": "Learn Doubly LinkedList",
+        "problems": [
+          {
+            "topic": "Introduction to DLL, learn about struct, and how is node represented",
+            "gfg": "https://bit.ly/3V9wY1v",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Insert a node in DLL",
+            "gfg": "https://bit.ly/3QD4hHs",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Delete a node in DLL",
+            "gfg": "https://bit.ly/3QlEoMx",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Reverse a DLL",
+            "gfg": "https://bit.ly/3w6hUaa",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 6.3",
+        "name": "Medium Problems of LL",
+        "problems": [
+          {
+            "topic": "Middle of a LinkedList [TortoiseHare Method]",
+            "gfg": "https://bit.ly/3dAjkn1",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/middle-of-the-linked-list/"
+          },
+          {
+            "topic": "Reverse a LinkedList [Iterative]",
+            "gfg": "https://bit.ly/3zY03mT",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/reverse-linked-list/"
+          },
+          {
+            "topic": "Reverse a LL [Recursive]",
+            "gfg": "https://bit.ly/3zY03mT",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/reverse-linked-list/"
+          },
+          {
+            "topic": "Detect a loop in LL",
+            "gfg": "https://bit.ly/3QN8PLn",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/linked-list-cycle/"
+          },
+          {
+            "topic": "Find the starting point in LL",
+            "gfg": "https://bit.ly/3zuBr66",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/linked-list-cycle-ii/"
+          },
+          {
+            "topic": "Length of Loop in LL",
+            "gfg": "https://bit.ly/3dyXL6m",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check if LL is palindrome or not",
+            "gfg": "https://bit.ly/3JVrnXJ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/palindrome-linked-list/"
+          },
+          {
+            "topic": "Segrregate odd and even nodes in LL",
+            "gfg": "https://bit.ly/3A3aeqe",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/odd-even-linked-list/"
+          },
+          {
+            "topic": "Remove Nth node from the back of the LL",
+            "gfg": "https://bit.ly/3pobNKM",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/remove-nth-node-from-end-of-list/"
+          },
+          {
+            "topic": "Delete the middle node of LL",
+            "gfg": "https://bit.ly/3QzoU7W",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/#:~:text=You%20are%20given%20the%20head,than%20or%20equal%20to%20x%20."
+          },
+          {
+            "topic": "Sort LL",
+            "gfg": "https://bit.ly/3dDuLdO",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/sort-list/"
+          },
+          {
+            "topic": "Sort a LL of 0 \u2019s 1 \u2019s and 2 \u2019s by changing links",
+            "gfg": "https://bit.ly/3Ceotvr",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find the intersection point of Y LL",
+            "gfg": "https://bit.ly/3pl5R4W",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/intersection-of-two-linked-lists/"
+          },
+          {
+            "topic": "Add 1 to a number represented by LL",
+            "gfg": "https://bit.ly/3piCTD3",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Add 2 numbers in LL",
+            "gfg": "https://bit.ly/3JZlGb7",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/add-two-numbers/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 6.4",
+        "name": "Medium Problems of DLL",
+        "problems": [
+          {
+            "topic": "Delete all occurrences of a key in DLL",
+            "gfg": "https://bit.ly/3zuBr66",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find pairs with given sum in DLL",
+            "gfg": "https://bit.ly/3zWPiBj",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Remove duplicates from sorted DLL",
+            "gfg": "https://bit.ly/3FtJUtZ",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 6.5",
+        "name": "Hard Problems of LL",
+        "problems": [
+          {
+            "topic": "Reverse LL in group of given size K",
+            "gfg": "https://bit.ly/3zWPiBj",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/reverse-nodes-in-k-group/"
+          },
+          {
+            "topic": "Rotate a LL",
+            "gfg": "https://bit.ly/3JXvemY",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/rotate-list/description/"
+          },
+          {
+            "topic": "Flattening of LL",
+            "gfg": "https://bit.ly/3w9TKf8",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Clone a Linked List with random and next pointer",
+            "gfg": "https://bit.ly/3PpM6np",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/copy-list-with-random-pointer/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 7",
+    "name": "Recursion [PatternWise]",
+    "substeps": [
+      {
+        "substep": "Step 7.1",
+        "name": "Get a Strong Hold",
+        "problems": [
+          {
+            "topic": "Recursive Implementation of atoi()",
+            "gfg": "https://bit.ly/3K4ySLV",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/string-to-integer-atoi/"
+          },
+          {
+            "topic": "Pow(x, n)",
+            "gfg": "https://bit.ly/3QLc6uD",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/powx-n/"
+          },
+          {
+            "topic": "Count Good numbers",
+            "gfg": "https://bit.ly/3w6SucH",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/count-good-numbers/"
+          },
+          {
+            "topic": "Sort a stack using recursion",
+            "gfg": "https://bit.ly/3Pu0YBn",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Reverse a stack using recursion",
+            "gfg": "https://bit.ly/3podAiY",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 7.2",
+        "name": "Subsequences Pattern",
+        "problems": [
+          {
+            "topic": "Generate all binary strings",
+            "gfg": "https://bit.ly/3sI8I9W",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Generate Paranthesis",
+            "gfg": "https://bit.ly/3K5keUw",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/generate-parentheses/"
+          },
+          {
+            "topic": "Print all subsequences/Power Set",
+            "gfg": "https://bit.ly/3STXz1t",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/subsets/"
+          },
+          {
+            "topic": "Learn All Patterns of Subsequences (Theory)",
+            "gfg": "https://bit.ly/3US225G",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Count all subsequences with sum K",
+            "gfg": "https://bit.ly/3SVf1me",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check if there exists a subsequence with sum K",
+            "gfg": "https://bit.ly/3SVf1me",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Combination Sum",
+            "gfg": "https://bit.ly/3C9bJ91",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/combination-sum/"
+          },
+          {
+            "topic": "Combination Sum-II",
+            "gfg": "https://bit.ly/3VgczZ2",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/combination-sum-ii/"
+          },
+          {
+            "topic": "Subset Sum-I",
+            "gfg": "https://bit.ly/3C9GQRS",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Subset Sum-II",
+            "gfg": "https://bit.ly/3MlAvWF",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/subsets-ii/"
+          },
+          {
+            "topic": "Combination Sum \u2013III",
+            "gfg": "https://bit.ly/3CMZFul",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/combination-sum-iii/"
+          },
+          {
+            "topic": "Letter Combinations of a Phone number",
+            "gfg": "https://bit.ly/3K1INBO",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/letter-combinations-of-a-phone-number/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 7.3",
+        "name": "Trying out all Combos / Hard",
+        "problems": [
+          {
+            "topic": "Palindrome Partitioning",
+            "gfg": "https://bit.ly/3T63roP",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/palindrome-partitioning/"
+          },
+          {
+            "topic": "Word Search",
+            "gfg": "https://bit.ly/3Ca9xOL",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/word-search/"
+          },
+          {
+            "topic": "N Queen",
+            "gfg": "https://bit.ly/3QurLP8",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/n-queens/"
+          },
+          {
+            "topic": "Rat in a Maze",
+            "gfg": "https://bit.ly/3pkqK0g",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Word Break",
+            "gfg": "https://bit.ly/3Bqk0Ug",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/word-break/"
+          },
+          {
+            "topic": "M Coloring Problem",
+            "gfg": "https://bit.ly/3Cepqnv",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Sudoko Solver",
+            "gfg": "https://bit.ly/3PrA5hs",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/sudoku-solver/"
+          },
+          {
+            "topic": "Expression Add Operators",
+            "gfg": "https://bit.ly/3yPPZN3",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/expression-add-operators/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 8",
+    "name": "Bit Manipulation [Concepts &Problems] &Advanced Maths",
+    "substeps": [
+      {
+        "substep": "Step 8.1",
+        "name": "Learn Bit Manipulation",
+        "problems": [
+          {
+            "topic": "Introduction to Bit Manipulation [Theory]",
+            "gfg": "https://bit.ly/3Eo8JVW",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check if the i-th bit is set or not",
+            "gfg": "https://bit.ly/3C0kAJR",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check if a number is odd or not",
+            "gfg": "https://bit.ly/3xDMLvF",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check if a number is power of 2 or not",
+            "gfg": "https://bit.ly/3R1ZPlq",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/power-of-two/"
+          },
+          {
+            "topic": "Count the number of set bits",
+            "gfg": "https://bit.ly/3SbiBZ2",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Set/Unset the rightmost unset bit",
+            "gfg": "https://bit.ly/3Sq66IM",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Swap two numbers",
+            "gfg": "https://bit.ly/3qVixAz",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Divide two integers without using multiplication, division and mod operator",
+            "gfg": "https://bit.ly/3LyUL6Q",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/divide-two-integers/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 8.2",
+        "name": "Interview Problems",
+        "problems": [
+          {
+            "topic": "Count number of bits to be flipped to convert A to B",
+            "gfg": "https://bit.ly/3Skharj",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-bit-flips-to-convert-number/"
+          },
+          {
+            "topic": "Find the number that appears odd number of times",
+            "gfg": "https://bit.ly/3BEb9ya",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/single-number/"
+          },
+          {
+            "topic": "Power Set",
+            "gfg": "https://bit.ly/3fdHg04",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/subsets/"
+          },
+          {
+            "topic": "Fnd xor of numbers from L to R",
+            "gfg": "https://bit.ly/3T8xUCf",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find the two numbers appearing odd number of times",
+            "gfg": "https://bit.ly/3DK7O3i",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 8.3",
+        "name": "Advanced Maths",
+        "problems": [
+          {
+            "topic": "Print Prime Factors of a Number",
+            "gfg": "https://bit.ly/3C165p8",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "All Divisors of a Number",
+            "gfg": "https://practice.geeksforgeeks.org/problems/all-divisors-of-a-number/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=all-divisors-of-a-number",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Sieve of Eratosthenes",
+            "gfg": "https://bit.ly/3fduYVT",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/count-primes/"
+          },
+          {
+            "topic": "Find Prime Factorisation of a Number using Sieve",
+            "gfg": "https://bit.ly/3SPGzbK",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Power(n, x)",
+            "gfg": "https://practice.geeksforgeeks.org/problems/power-of-numbers-1587115620/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=power-of-numbers",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/powx-n/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 9",
+    "name": "Stack and Queues [Pre-In-Post-fix, Monotonic Stack]",
+    "substeps": [
+      {
+        "substep": "Step 9.1",
+        "name": "Learning",
+        "problems": [
+          {
+            "topic": "Implement Stack using Arrays",
+            "gfg": "https://bit.ly/3QPJ39w",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Implement Queue using Arrays",
+            "gfg": "https://bit.ly/3C9HLli",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Implement Stack using Queue",
+            "gfg": "https://bit.ly/3PrRI0F",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/implement-stack-using-queues/"
+          },
+          {
+            "topic": "Implement Queue using Stack",
+            "gfg": "https://bit.ly/3Quthki",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/implement-queue-using-stacks/"
+          },
+          {
+            "topic": "Implement stack using Linkedlist",
+            "gfg": "https://bit.ly/3w6PwVv",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Implement queue using Linkedlist",
+            "gfg": "https://bit.ly/3PA7mY0",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check for balanced paranthesis",
+            "gfg": "https://bit.ly/3An2IIo",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/valid-parentheses/"
+          },
+          {
+            "topic": "Implement Min Stack",
+            "gfg": "https://bit.ly/3JVhFoe",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/min-stack/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 9.2",
+        "name": "Prefix, Infix, PostFix Conversion Problems",
+        "problems": [
+          {
+            "topic": "Infix to Postfix Conversion using Stack",
+            "gfg": "https://bit.ly/3JWYj1P",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Prefix to Infix Conversion",
+            "gfg": "https://bit.ly/3FwxK3j",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Prefix to Postfix Conversion",
+            "gfg": "https://bit.ly/3DrwCLI",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Postfix to Prefix Conversion",
+            "gfg": "https://bit.ly/3UaWJxk",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Postfix to Infix",
+            "gfg": "https://bit.ly/3sNZ1a2",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Convert Infix To Prefix Notation",
+            "gfg": "https://bit.ly/3T0gZ4P",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 9.3",
+        "name": "Monotonic Stack/Queue Problems [VVV. Imp]",
+        "problems": [
+          {
+            "topic": "Next Greater Element",
+            "gfg": "https://bit.ly/3QNPQAs",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/next-greater-element-i/"
+          },
+          {
+            "topic": "Next Greater Element 2",
+            "gfg": "https://bit.ly/3DLe7TX",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/next-greater-element-ii/"
+          },
+          {
+            "topic": "Next Smaller Element",
+            "gfg": "https://bit.ly/3wbhcIL",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Number of NGEs to the right",
+            "gfg": "https://bit.ly/3Np2R2H",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Trapping Rainwater",
+            "gfg": "https://bit.ly/3AqMa1W",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/trapping-rain-water/"
+          },
+          {
+            "topic": "Sum of subarray minimum",
+            "gfg": "https://bit.ly/3yS5XpZ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/sum-of-subarray-minimums/"
+          },
+          {
+            "topic": "Stock span problem",
+            "gfg": "https://bit.ly/3dzHopW",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/online-stock-span/"
+          },
+          {
+            "topic": "Asteroid Collision",
+            "gfg": "https://bit.ly/3Tpi0Tw",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/asteroid-collision/"
+          },
+          {
+            "topic": "Sum of subarray ranges",
+            "gfg": "https://bit.ly/3SdfheS",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/sum-of-subarray-ranges/"
+          },
+          {
+            "topic": "Remove k Digits",
+            "gfg": "https://bit.ly/3pl6taP",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/remove-k-digits/"
+          },
+          {
+            "topic": "Largest rectangle in a histogram",
+            "gfg": "https://bit.ly/3AnVYd5",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/largest-rectangle-in-histogram/"
+          },
+          {
+            "topic": "Maximal Rectangles",
+            "gfg": "https://bit.ly/3C6BF5p",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximal-rectangle/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 9.4",
+        "name": "Implementation Problems",
+        "problems": [
+          {
+            "topic": "Sliding Window maximum",
+            "gfg": "https://bit.ly/3w7SSri",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/sliding-window-maximum/"
+          },
+          {
+            "topic": "Stock Span Problem",
+            "gfg": "https://bit.ly/3SSxcZZ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/online-stock-span/"
+          },
+          {
+            "topic": "The Celebrity Problem",
+            "gfg": "https://bit.ly/3dC9IIB",
+            "video": "",
+            "leetcode": "https://leetcode.com/accounts/login/?next=/problems/find-the-celebrity/"
+          },
+          {
+            "topic": "Rotten Oranges",
+            "gfg": "https://bit.ly/3R4htWb",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/rotting-oranges/"
+          },
+          {
+            "topic": "LRU cache (IMPORTANT)",
+            "gfg": "https://bit.ly/3zZneNN",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/lru-cache/"
+          },
+          {
+            "topic": "LFU cache",
+            "gfg": "https://bit.ly/3fpYDLQ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/lfu-cache/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 10",
+    "name": "Sliding Window &Two Pointer Combined Problems",
+    "substeps": [
+      {
+        "substep": "Step 10.1",
+        "name": "Medium Problems",
+        "problems": [
+          {
+            "topic": "Longest Substring Without Repeating Characters",
+            "gfg": "https://bit.ly/3wegomm",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-substring-without-repeating-characters/"
+          },
+          {
+            "topic": "Max Consecutive Ones III",
+            "gfg": "https://bit.ly/3RjRcCO",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/max-consecutive-ones-iii/"
+          },
+          {
+            "topic": "Fruit Into Baskets",
+            "gfg": "https://bit.ly/3D6d94w",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "longest repeating character replacement",
+            "gfg": "https://bit.ly/3WhN89U",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-repeating-character-replacement/"
+          },
+          {
+            "topic": "Binary subarray with sum",
+            "gfg": "https://bit.ly/3S8xsCG",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-subarrays-with-sum/"
+          },
+          {
+            "topic": "Count number of nice subarrays",
+            "gfg": "https://bit.ly/3xZvUUc",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/count-number-of-nice-subarrays/"
+          },
+          {
+            "topic": "Number of substring containing all three characters",
+            "gfg": "https://bit.ly/3xVYTZa",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"
+          },
+          {
+            "topic": "Maximum point you can obtain from cards",
+            "gfg": "https://bit.ly/3DxaMXw",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 10.2",
+        "name": "Hard Problems",
+        "problems": [
+          {
+            "topic": "Longest Substring with At Most K Distinct Characters",
+            "gfg": "https://bit.ly/3T12HRu",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/"
+          },
+          {
+            "topic": "Subarray with k different integers",
+            "gfg": "https://bit.ly/3DLRtee",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/subarrays-with-k-different-integers/"
+          },
+          {
+            "topic": "Minimum Window Substring",
+            "gfg": "https://practice.geeksforgeeks.org/problems/smallest-window-in-a-string-containing-all-the-characters-of-another-string-1587115621/1",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-window-substring/"
+          },
+          {
+            "topic": "Minimum Window Subsequence",
+            "gfg": "https://bit.ly/3DnB4uZ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-window-subsequence/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 11",
+    "name": "Heaps [Learning, Medium, Hard Problems]",
+    "substeps": [
+      {
+        "substep": "Step 11.1",
+        "name": "Learning",
+        "problems": [
+          {
+            "topic": "Introduction to Priority Queues using Binary Heaps",
+            "gfg": "https://bit.ly/3TSxAHd",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Min Heap and Max Heap Implementation",
+            "gfg": "https://bit.ly/3weGgP3",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Check if an array represents a min-heap or not",
+            "gfg": "https://bit.ly/3AbFrrI",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Convert min Heap to max Heap",
+            "gfg": "https://bit.ly/3flmw7c",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 11.2",
+        "name": "Medium Problems",
+        "problems": [
+          {
+            "topic": "Kth largest element in an array [use priority queue]",
+            "gfg": "https://bit.ly/3Avss5k",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/kth-largest-element-in-an-array/"
+          },
+          {
+            "topic": "Kth smallest element in an array [use priority queue]",
+            "gfg": "https://bit.ly/3PvAOhK",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Sort K sorted array",
+            "gfg": "https://bit.ly/3QLpaAs",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Merge M sorted Lists",
+            "gfg": "https://bit.ly/3QObTXC",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/merge-k-sorted-lists/"
+          },
+          {
+            "topic": "Replace each array element by its corresponding rank",
+            "gfg": "https://bit.ly/3TS3jcg",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Task Scheduler",
+            "gfg": "https://bit.ly/3h2Z92Z",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/task-scheduler/"
+          },
+          {
+            "topic": "Hands of Straights",
+            "gfg": "https://bit.ly/3SUfwM8",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/hand-of-straights/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 11.3",
+        "name": "Hard Problems",
+        "problems": [
+          {
+            "topic": "Design twitter",
+            "gfg": "https://practice.geeksforgeeks.org/problems/design-twitter/1",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/design-twitter/"
+          },
+          {
+            "topic": "Connect `n` ropes with minimal cost",
+            "gfg": "https://bit.ly/3t5CS7r",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Kth largest element in a stream of running integers",
+            "gfg": "https://bit.ly/3JZPqEV",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/kth-largest-element-in-a-stream/#:~:text=Implement%20KthLargest%20class%3A,largest%20element%20in%20the%20stream."
+          },
+          {
+            "topic": "Maximum Sum Combination",
+            "gfg": "https://bit.ly/3sSXvTT",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find Median from Data Stream",
+            "gfg": "https://bit.ly/3QIknj4",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/find-median-from-data-stream/"
+          },
+          {
+            "topic": "K most frequent elements",
+            "gfg": "https://bit.ly/3wcIHla",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/top-k-frequent-elements/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 12",
+    "name": "Greedy Algorithms [Easy, Medium/Hard]",
+    "substeps": [
+      {
+        "substep": "Step 12.1",
+        "name": "Easy Problems",
+        "problems": [
+          {
+            "topic": "Assign Cookies",
+            "gfg": "https://bit.ly/3Wl3PBd",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/assign-cookies/"
+          },
+          {
+            "topic": "Fractional Knapsack Problem",
+            "gfg": "https://bit.ly/3PsqOFL",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Greedy algorithm to find minimum number of coins",
+            "gfg": "https://bit.ly/3Ka7xYU",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Lemonade Change",
+            "gfg": "https://bit.ly/3DoFGRx",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/lemonade-change/"
+          },
+          {
+            "topic": "Valid Paranthesis Checker",
+            "gfg": "https://bit.ly/3K6ulZA",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/valid-parenthesis-string/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 12.2",
+        "name": "Medium/Hard",
+        "problems": [
+          {
+            "topic": "N meetings in one room",
+            "gfg": "https://bit.ly/3A6Ob1Y",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Jump Game",
+            "gfg": "https://bit.ly/3AbFYKe",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/jump-game/"
+          },
+          {
+            "topic": "Jump Game 2",
+            "gfg": "https://bit.ly/3Av2ezM",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/jump-game-ii/"
+          },
+          {
+            "topic": "Minimum number of platforms required for a railway",
+            "gfg": "https://bit.ly/3bXX5Hm",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Job sequencing Problem",
+            "gfg": "https://bit.ly/3Pttpzj",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Candy",
+            "gfg": "https://bit.ly/3h14wzm",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/candy/"
+          },
+          {
+            "topic": "Program for Shortest Job First (or SJF) CPU Scheduling",
+            "gfg": "https://bit.ly/3DYCIFb",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Program for Least Recently Used (LRU) Page Replacement Algorithm",
+            "gfg": "https://bit.ly/3dtFqHG",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Insert Interval",
+            "gfg": "https://bit.ly/3VeNtc1",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/insert-interval/"
+          },
+          {
+            "topic": "Merge Intervals",
+            "gfg": "https://bit.ly/3K6pRlt",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/merge-intervals/"
+          },
+          {
+            "topic": "Non-overlapping Intervals",
+            "gfg": "https://bit.ly/3UM6liN",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/non-overlapping-intervals/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 13",
+    "name": "Binary Trees [Traversals, Medium and Hard Problems]",
+    "substeps": [
+      {
+        "substep": "Step 13.1",
+        "name": "Traversals",
+        "problems": [
+          {
+            "topic": "Introduction to Trees",
+            "gfg": "https://bit.ly/3EsRmTM",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Binary Tree Representation in C++",
+            "gfg": "https://bit.ly/3gn5Soh",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Binary Tree Representation in Java",
+            "gfg": "https://bit.ly/3gn5Soh",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Binary Tree Traversals in Binary Tree",
+            "gfg": "https://bit.ly/3Cb4VIh",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Preorder Traversal of Binary Tree",
+            "gfg": "https://bit.ly/3Cb4VIh",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+          },
+          {
+            "topic": "Inorder Traversal of Binary Tree",
+            "gfg": "https://bit.ly/3QzNDbU",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+          },
+          {
+            "topic": "Post-order Traversal of Binary Tree",
+            "gfg": "https://bit.ly/3SZauQ4",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+          },
+          {
+            "topic": "Level order Traversal / Level order traversal in spiral form",
+            "gfg": "https://bit.ly/3K6t9VR",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-level-order-traversal/"
+          },
+          {
+            "topic": "Iterative Preorder Traversal of Binary Tree",
+            "gfg": "https://bit.ly/3Cb4VIh",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-preorder-traversal/"
+          },
+          {
+            "topic": "Iterative Inorder Traversal of Binary Tree",
+            "gfg": "https://bit.ly/3QzNDbU",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+          },
+          {
+            "topic": "Post-order Traversal of Binary Tree using 2 stack",
+            "gfg": "https://bit.ly/3Cb5Wjz",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+          },
+          {
+            "topic": "Post-order Traversal of Binary Tree using 1 stack",
+            "gfg": "https://bit.ly/3SZauQ4",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-postorder-traversal/"
+          },
+          {
+            "topic": "Preorder, Inorder, and Postorder Traversal in one Traversal",
+            "gfg": "https://bit.ly/3T3oW9M",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 13.2",
+        "name": "Medium Problems",
+        "problems": [
+          {
+            "topic": "Height of a Binary Tree",
+            "gfg": "https://bit.ly/3CitiDM",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximum-depth-of-binary-tree/"
+          },
+          {
+            "topic": "Check if the Binary tree is height-balanced or not",
+            "gfg": "https://bit.ly/3K9YbfB",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/balanced-binary-tree/"
+          },
+          {
+            "topic": "Diameter of Binary Tree",
+            "gfg": "https://bit.ly/3wcfG9l",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/diameter-of-binary-tree/"
+          },
+          {
+            "topic": "Maximum path sum",
+            "gfg": "https://bit.ly/3QAFjbW",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-maximum-path-sum/"
+          },
+          {
+            "topic": "Check if two trees are identical or not",
+            "gfg": "https://bit.ly/3c2K52Z",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/same-tree/"
+          },
+          {
+            "topic": "Zig Zag Traversal of Binary Tree",
+            "gfg": "https://bit.ly/3K4mwn5",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/"
+          },
+          {
+            "topic": "Boundary Traversal of Binary Tree",
+            "gfg": "https://bit.ly/3AsfgOK",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/boundary-of-binary-tree/"
+          },
+          {
+            "topic": "Vertical Order Traversal of Binary Tree",
+            "gfg": "https://bit.ly/3pqu1er",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/"
+          },
+          {
+            "topic": "Top View of Binary Tree",
+            "gfg": "https://bit.ly/3PsvE5T",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Bottom View of Binary Tree",
+            "gfg": "https://bit.ly/3Asftl0",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Right/Left View of Binary Tree",
+            "gfg": "https://bit.ly/3PCqyE9",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-right-side-view/"
+          },
+          {
+            "topic": "Symmetric Binary Tree",
+            "gfg": "https://bit.ly/3PCqBzP",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/symmetric-tree/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 13.1",
+        "name": "Hard Problems",
+        "problems": [
+          {
+            "topic": "Root to Node Path in Binary Tree",
+            "gfg": "https://bit.ly/3QA600D",
+            "video": "",
+            "leetcode": "https://www.interviewbit.com/problems/path-to-given-node/"
+          },
+          {
+            "topic": "LCA in Binary Tree",
+            "gfg": "https://bit.ly/3popvgG",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/"
+          },
+          {
+            "topic": "Maximum width of a Binary Tree",
+            "gfg": "https://bit.ly/3dxUfZP",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximum-width-of-binary-tree/"
+          },
+          {
+            "topic": "Check for Children Sum Property",
+            "gfg": "https://bit.ly/3dEr73g",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Print all the Nodes at a distance of K in a Binary Tree",
+            "gfg": "https://bit.ly/3QytIu6",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/"
+          },
+          {
+            "topic": "Minimum time taken to BURN the Binary Tree from a Node",
+            "gfg": "https://bit.ly/3wcg7k1",
+            "video": "",
+            "leetcode": "https://www.codingninjas.com/codestudio/problems/time-to-burn-tree_630563?source=youtube&campaign=Striver_Tree_Videos&utm_source=youtube&utm_medium=affiliate&utm_campaign=Striver_Tree_Videos"
+          },
+          {
+            "topic": "Count total Nodes in a COMPLETE Binary Tree",
+            "gfg": "https://bit.ly/3EoPFXM",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/count-complete-tree-nodes/"
+          },
+          {
+            "topic": "Requirements needed to construct a Unique Binary Tree | Theory",
+            "gfg": "https://bit.ly/3UVCR1U",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Construct Binary Tree from inorder and preorder",
+            "gfg": "https://bit.ly/3AoZ4N5",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/"
+          },
+          {
+            "topic": "Construct the Binary Tree from Postorder and Inorder Traversal",
+            "gfg": "https://bit.ly/3wbFiTI",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/"
+          },
+          {
+            "topic": "Serialize and deserialize Binary Tree",
+            "gfg": "https://bit.ly/3PqPDSE",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"
+          },
+          {
+            "topic": "Morris Preorder Traversal of a Binary Tree",
+            "gfg": "https://bit.ly/3EORTB9",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+          },
+          {
+            "topic": "Morris Inorder Traversal of a Binary Tree",
+            "gfg": "https://bit.ly/3tJQiGk",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-tree-inorder-traversal/"
+          },
+          {
+            "topic": "Flatten Binary Tree to LinkedList",
+            "gfg": "https://bit.ly/3PFzwko",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 14",
+    "name": "Binary Search Trees [Concept and Problems]",
+    "substeps": [
+      {
+        "substep": "Step 14.1",
+        "name": "Concepts",
+        "problems": [
+          {
+            "topic": "Introduction to Binary Search Tree",
+            "gfg": "https://bit.ly/3gprRLk",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Search in a Binary Search Tree",
+            "gfg": "https://bit.ly/3Bwj68U",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/search-in-a-binary-search-tree/"
+          },
+          {
+            "topic": "Find Min/Max in BST",
+            "gfg": "https://bit.ly/3f9XkzZ",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 14.2",
+        "name": "Practice Problems",
+        "problems": [
+          {
+            "topic": "Ceil in a Binary Search Tree",
+            "gfg": "https://bit.ly/3BULqTJ",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Floor in a Binary Search Tree",
+            "gfg": "https://bit.ly/3TSbXXE",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Insert a given Node in Binary Search Tree",
+            "gfg": "https://bit.ly/3SoX3aH",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/insert-into-a-binary-search-tree/"
+          },
+          {
+            "topic": "Delete a Node in Binary Search Tree",
+            "gfg": "https://bit.ly/3dwYsxi",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/delete-node-in-a-bst/"
+          },
+          {
+            "topic": "Find K-th smallest/largest element in BST",
+            "gfg": "https://bit.ly/3LxFMdo",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/kth-smallest-element-in-a-bst/"
+          },
+          {
+            "topic": "Check if a tree is a BST or BT",
+            "gfg": "https://bit.ly/3poHDqN",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/validate-binary-search-tree/"
+          },
+          {
+            "topic": "LCA in Binary Search Tree",
+            "gfg": "https://bit.ly/3qRwTC1",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/"
+          },
+          {
+            "topic": "Construct a BST from a preorder traversal",
+            "gfg": "https://bit.ly/3BSI1Un",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/"
+          },
+          {
+            "topic": "Inorder Successor/Predecessor in BST",
+            "gfg": "https://practice.geeksforgeeks.org/problems/predecessor-and-successor/1",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/inorder-successor-in-bst/"
+          },
+          {
+            "topic": "Merge 2 BST \u2019s",
+            "gfg": "https://bit.ly/3qWZrtS",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/binary-search-tree-iterator/"
+          },
+          {
+            "topic": "Two Sum In BST | Check if there exists a pair with Sum K",
+            "gfg": "https://bit.ly/3BUyCg6",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/two-sum-iv-input-is-a-bst/"
+          },
+          {
+            "topic": "Recover BST | Correct BST with two nodes swapped",
+            "gfg": "https://bit.ly/3PBJwea",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/recover-binary-search-tree/"
+          },
+          {
+            "topic": "Largest BST in Binary Tree",
+            "gfg": "https://bit.ly/3LxECPd",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 15",
+    "name": "Graphs [Concepts &Problems]",
+    "substeps": [
+      {
+        "substep": "Step 15.1",
+        "name": "Learning",
+        "problems": [
+          {
+            "topic": "Graph and Types",
+            "gfg": "https://bit.ly/3gpY19t",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Graph Representation | C++",
+            "gfg": "https://bit.ly/3dGuwyv",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Graph Representation | Java",
+            "gfg": "https://bit.ly/3dGuwyv",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Connected Components | Logic Explanation",
+            "gfg": "https://bit.ly/3AxzhDG",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "BFS",
+            "gfg": "https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=bfs_of_graph",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "DFS",
+            "gfg": "https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=dfs_of_graph",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 15.2",
+        "name": "Problems on BFS/DFS",
+        "problems": [
+          {
+            "topic": "Number of provinces (leetcode)",
+            "gfg": "https://practice.geeksforgeeks.org/problems/number-of-provinces/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number_of_provinces",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/number-of-provinces/#:~:text=A%20province%20is%20a%20group,the%20total%20number%20of%20provinces."
+          },
+          {
+            "topic": "Connected Components Problem in Matrix",
+            "gfg": "https://bit.ly/3AxzhDG",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Rotten Oranges",
+            "gfg": "https://practice.geeksforgeeks.org/problems/rotten-oranges2536/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=rotten_oranges",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/rotting-oranges/"
+          },
+          {
+            "topic": "Flood fill",
+            "gfg": "https://practice.geeksforgeeks.org/problems/flood-fill-algorithm1856/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=flood-fill-algorithm",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/flood-fill/"
+          },
+          {
+            "topic": "Cycle Detection in unirected Graph (bfs)",
+            "gfg": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Cycle Detection in undirected Graph (dfs)",
+            "gfg": "https://practice.geeksforgeeks.org/problems/detect-cycle-in-an-undirected-graph/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=detect-cycle-in-an-undirected-graph",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "0/1 Matrix (Bfs Problem)",
+            "gfg": "https://bit.ly/3Lw8Emp",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/01-matrix/"
+          },
+          {
+            "topic": "Surrounded Regions (dfs)",
+            "gfg": "https://bit.ly/3T3oDLR",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/surrounded-regions/"
+          },
+          {
+            "topic": "Number of Enclaves[flood fill implementation \u2013multisource]",
+            "gfg": "https://bit.ly/3LA59uX",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/number-of-enclaves/"
+          },
+          {
+            "topic": "Word ladder \u20131",
+            "gfg": "https://bit.ly/3BE8tke",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/word-ladder/"
+          },
+          {
+            "topic": "Word ladder \u20132",
+            "gfg": "https://bit.ly/3fdDxzC",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/word-ladder-ii/"
+          },
+          {
+            "topic": "Number of Distinct Islands [dfs multisource]",
+            "gfg": "https://practice.geeksforgeeks.org/problems/number-of-distinct-islands/1",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/number-of-distinct-islands-ii/"
+          },
+          {
+            "topic": "Bipartite Graph (DFS)",
+            "gfg": "https://bit.ly/3QZN2jf",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/is-graph-bipartite/"
+          },
+          {
+            "topic": "Cycle Detection in Directed Graph (DFS)",
+            "gfg": "https://bit.ly/3S01qt8",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/course-schedule-ii/discuss/293048/detecting-cycle-in-directed-graph-problem"
+          }
+        ]
+      },
+      {
+        "substep": "Step 15.3",
+        "name": "Topo Sort and Problems",
+        "problems": [
+          {
+            "topic": "Topo Sort",
+            "gfg": "https://bit.ly/3S02dKC",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Kahn \u2019s Algorithm",
+            "gfg": "https://bit.ly/3c690mm",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Cycle Detection in Directed Graph (BFS)",
+            "gfg": "https://bit.ly/3DK3elS",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Course Schedule \u2013I",
+            "gfg": "https://bit.ly/3SpUd5m",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/course-schedule/"
+          },
+          {
+            "topic": "Course Schedule \u2013II",
+            "gfg": "https://bit.ly/3w8ZBBl",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/course-schedule-ii/"
+          },
+          {
+            "topic": "Find eventual safe states",
+            "gfg": "https://bit.ly/3S6TE0w",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/find-eventual-safe-states/"
+          },
+          {
+            "topic": "Alien dictionary",
+            "gfg": "https://bit.ly/3LwfXdP",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/alien-dictionary/solution/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 15.4",
+        "name": "Shortest Path Algorithms and Problems",
+        "problems": [
+          {
+            "topic": "Shortest Path in UG with unit weights",
+            "gfg": "https://bit.ly/3UVQD4C",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Shortest Path in DAG",
+            "gfg": "https://bit.ly/3Eo1mhq",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Djisktra \u2019s Algorithm",
+            "gfg": "https://bit.ly/3UsjnST",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Why priority Queue is used in Djisktra \u2019s Algorithm",
+            "gfg": "https://bit.ly/3UsjnST",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Shortest path in a binary maze",
+            "gfg": "https://bit.ly/3ArrkzD",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/shortest-path-in-binary-matrix/"
+          },
+          {
+            "topic": "Path with minimum effort",
+            "gfg": "https://bit.ly/3OpIfbh",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/path-with-minimum-effort/"
+          },
+          {
+            "topic": "Cheapest flights within k stops",
+            "gfg": "https://bit.ly/3OnPWi4",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/cheapest-flights-within-k-stops/"
+          },
+          {
+            "topic": "Network Delay time",
+            "gfg": "https://bit.ly/3pr6ObZ",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/network-delay-time/"
+          },
+          {
+            "topic": "Number of ways to arrive at destination",
+            "gfg": "https://bit.ly/3Soi85j-arrive-at-destination/1",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/"
+          },
+          {
+            "topic": "Minimum steps to reach end from start by performing multiplication and mod operations with array elements",
+            "gfg": "https://bit.ly/3QAEsrY",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Bellman Ford Algorithm",
+            "gfg": "https://bit.ly/3C0SxKs",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Floyd Warshal Algorithm",
+            "gfg": "https://bit.ly/3LwgdJP",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Find the city with the smallest number of neighbors in a threshold distance",
+            "gfg": "https://bit.ly/3Lwr5Y4",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 15.5",
+        "name": "MinimumSpanningTree/Disjoint Set and Problems",
+        "problems": [
+          {
+            "topic": "Minimum Spanning Tree",
+            "gfg": "https://bit.ly/3R2Xhn1",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Prim \u2019s Algorithm",
+            "gfg": "https://bit.ly/3R2Xhn1",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Disjoint Set [Union by Rank]",
+            "gfg": "https://bit.ly/3QSGvHz",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Disjoint Set [Union by Size]",
+            "gfg": "https://bit.ly/3QSGvHz",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Kruskal \u2019s Algorithm",
+            "gfg": "https://bit.ly/3R2Xhn1",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Number of operations to make network connected",
+            "gfg": "https://bit.ly/3Esuzrd",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/number-of-operations-to-make-network-connected/"
+          },
+          {
+            "topic": "Most stones removed with same rows or columns",
+            "gfg": "https://bit.ly/3Ep4Tfo",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"
+          },
+          {
+            "topic": "Accounts merge",
+            "gfg": "https://bit.ly/3C03qMi",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/accounts-merge/"
+          },
+          {
+            "topic": "Number of island II",
+            "gfg": "https://bit.ly/3A7BofH",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/number-of-islands-ii/"
+          },
+          {
+            "topic": "Making a Large Island",
+            "gfg": "https://bit.ly/3i1yOmk",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/making-a-large-island/"
+          },
+          {
+            "topic": "Swim in rising water",
+            "gfg": "https://bit.ly/3VftZ7i",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/swim-in-rising-water/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 15.6",
+        "name": "Other Algorithms",
+        "problems": [
+          {
+            "topic": "Bridges in Graph",
+            "gfg": "https://bit.ly/3dFdvVe",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/critical-connections-in-a-network/discuss/382385/find-bridges-in-a-graph"
+          },
+          {
+            "topic": "Articulation Point",
+            "gfg": "https://bit.ly/3T2LPKu",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Kosaraju \u2019s Algorithm",
+            "gfg": "https://bit.ly/3TbvByL",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 16",
+    "name": "Dynamic Programming [Patterns and Problems]",
+    "substeps": [
+      {
+        "substep": "Step 16.1",
+        "name": "Introduction to DP",
+        "problems": [
+          {
+            "topic": "Dynamic Programming Introduction",
+            "gfg": "https://bit.ly/3UWkWrS",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 16.2",
+        "name": "1D DP",
+        "problems": [
+          {
+            "topic": "Climbing Stars",
+            "gfg": "https://bit.ly/3DLrBQ2",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/climbing-stairs/"
+          },
+          {
+            "topic": "Frog Jump(DP-3)",
+            "gfg": "https://bit.ly/3Xn0Kkw",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Frog Jump with k distances(DP-4)",
+            "gfg": "https://bit.ly/3GyNRya",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Maximum sum of non-adjacent elements (DP 5)",
+            "gfg": "https://bit.ly/3QOMRs1",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "House Robber (DP 6)",
+            "gfg": "https://bit.ly/3QCCpDQ",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 16.3",
+        "name": "2D/3D DP and DP on Grids",
+        "problems": [
+          {
+            "topic": "Ninja\u2019s Training (DP 7)",
+            "gfg": "https://bit.ly/3glc9kp",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Grid Unique Paths : DP on Grids (DP8)",
+            "gfg": "https://bit.ly/3BsNkJO",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/unique-paths/"
+          },
+          {
+            "topic": "Grid Unique Paths 2 (DP 9)",
+            "gfg": "https://bit.ly/3tNYlBU",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/unique-paths-ii/"
+          },
+          {
+            "topic": "Minimum path sum in Grid (DP 10)",
+            "gfg": "https://bit.ly/3c1H9Uf",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-path-sum/"
+          },
+          {
+            "topic": "Minimum path sum in Triangular Grid (DP 11)",
+            "gfg": "https://bit.ly/3VaQIkI",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/triangle/"
+          },
+          {
+            "topic": "Minimum/Maximum Falling Path Sum (DP-12)",
+            "gfg": "https://bit.ly/3PwqvtO",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-falling-path-sum/"
+          },
+          {
+            "topic": "3-d DP : Ninja and his friends (DP-13)",
+            "gfg": "https://bit.ly/3U9k6XT",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 16.4",
+        "name": "DP on Subsequences",
+        "problems": [
+          {
+            "topic": "Subset sum equal to target (DP- 14)",
+            "gfg": "https://bit.ly/3S6ljPd",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Partition Equal Subset Sum (DP- 15)",
+            "gfg": "https://bit.ly/3E14123",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/partition-equal-subset-sum/"
+          },
+          {
+            "topic": "Partition Set Into 2 Subsets With Min Absolute Sum Diff (DP- 16)",
+            "gfg": "https://bit.ly/3S6uVtg",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference/"
+          },
+          {
+            "topic": "Count Subsets with Sum K (DP \u2013 17)",
+            "gfg": "https://bit.ly/3AwVr8I",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Count Partitions with Given Difference (DP \u2013 18)",
+            "gfg": "https://bit.ly/3gkAM0s",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "0/1 Knapsack (DP \u2013 19)",
+            "gfg": "https://bit.ly/3BZTjXT",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Minimum Coins (DP \u2013 20)",
+            "gfg": "https://bit.ly/3UG0egq",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/coin-change/"
+          },
+          {
+            "topic": "Target Sum (DP \u2013 21)",
+            "gfg": "https://bit.ly/3BxB2jr",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/target-sum/"
+          },
+          {
+            "topic": "Coin Change 2 (DP \u2013 22)",
+            "gfg": "https://bit.ly/3SZJWOl",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/coin-change-2/"
+          },
+          {
+            "topic": "Unbounded Knapsack (DP \u2013 23)",
+            "gfg": "https://bit.ly/3Cbc5fz",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Rod Cutting Problem | (DP \u2013 24)",
+            "gfg": "https://bit.ly/3R1TXZh",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      },
+      {
+        "substep": "Step 16.5",
+        "name": "DP on Strings",
+        "problems": [
+          {
+            "topic": "Longest Common Subsequence | (DP \u2013 25)",
+            "gfg": "https://bit.ly/3f6eDlE",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-common-subsequence/"
+          },
+          {
+            "topic": "Print Longest Common Subsequence | (DP \u2013 26)",
+            "gfg": "https://bit.ly/3T1Va4U",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Longest Common Substring | (DP \u2013 27)",
+            "gfg": "https://bit.ly/3qYUeBK",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Longest Palindromic Subsequence | (DP-28)",
+            "gfg": "https://bit.ly/3SndYdP",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-palindromic-subsequence/"
+          },
+          {
+            "topic": "Minimum insertions to make string palindrome | DP-29",
+            "gfg": "https://bit.ly/3S6ekWx",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/"
+          },
+          {
+            "topic": "Minimum Insertions/Deletions to Convert String | (DP- 30)",
+            "gfg": "https://bit.ly/3UwoktW",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/delete-operation-for-two-strings/"
+          },
+          {
+            "topic": "Shortest Common Supersequence | (DP \u2013 31)",
+            "gfg": "https://bit.ly/3R8AIxc",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/shortest-common-supersequence/"
+          },
+          {
+            "topic": "Distinct Subsequences| (DP-32)",
+            "gfg": "https://bit.ly/3Lz0Wry",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/distinct-subsequences/"
+          },
+          {
+            "topic": "Edit Distance | (DP-33)",
+            "gfg": "https://bit.ly/3qZueWY",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/edit-distance/"
+          },
+          {
+            "topic": "Wildcard Matching | (DP-34)",
+            "gfg": "https://bit.ly/3R2Zfnp",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/wildcard-matching/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 16.6",
+        "name": "DP on Stocks",
+        "problems": [
+          {
+            "topic": "Best Time to Buy and Sell Stock |(DP-35)",
+            "gfg": "https://bit.ly/3xI7ajb",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/"
+          },
+          {
+            "topic": "Buy and Sell Stock \u2013 II|(DP-36)",
+            "gfg": "https://bit.ly/3gkV5en",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"
+          },
+          {
+            "topic": "Buy and Sell Stocks III|(DP-37)",
+            "gfg": "https://bit.ly/3qZaYZs",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/"
+          },
+          {
+            "topic": "Buy and Stock Sell IV |(DP-38)",
+            "gfg": "https://bit.ly/3SpU1TE",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/"
+          },
+          {
+            "topic": "Buy and Sell Stocks With Cooldown|(DP-39)",
+            "gfg": "https://bit.ly/3GycvyA",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"
+          },
+          {
+            "topic": "Buy and Sell Stocks With Transaction Fee|(DP-40)",
+            "gfg": "https://bit.ly/3AwUkpe",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 16.7",
+        "name": "DP on LIS",
+        "problems": [
+          {
+            "topic": "Longest Increasing Subsequence |(DP-41)",
+            "gfg": "https://bit.ly/3eYunab",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-increasing-subsequence/"
+          },
+          {
+            "topic": "Printing Longest Increasing Subsequence|(DP-42)",
+            "gfg": "https://bit.ly/3XiRbmG",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Longest Increasing Subsequence |(DP-43)",
+            "gfg": "https://bit.ly/3Pxf84L",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Largest Divisible Subset|(DP-44)",
+            "gfg": "https://bit.ly/3hYsWKC",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/largest-divisible-subset/"
+          },
+          {
+            "topic": "Longest String Chain|(DP-45)",
+            "gfg": "https://bit.ly/3TSqOkS",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-string-chain/"
+          },
+          {
+            "topic": "Longest Bitonic Subsequence |(DP-46)",
+            "gfg": "https://bit.ly/3BARIGF",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Number of Longest Increasing Subsequences|(DP-47)",
+            "gfg": "https://bit.ly/3EohD60",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/number-of-longest-increasing-subsequence/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 16.8",
+        "name": "MCM DP | Partition DP",
+        "problems": [
+          {
+            "topic": "Matrix Chain Multiplication|(DP-48)",
+            "gfg": "https://bit.ly/3Cgg36D",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Matrix Chain Multiplication | Bottom-Up|(DP-49)",
+            "gfg": "https://bit.ly/3Cgg36D",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Minimum Cost to Cut the Stick|(DP-50)",
+            "gfg": "https://bit.ly/3K3ItCE",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-cost-to-cut-a-stick/"
+          },
+          {
+            "topic": "Burst Balloons|(DP-51)",
+            "gfg": "https://bit.ly/3A9LdKp",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/burst-balloons/"
+          },
+          {
+            "topic": "Evaluate Boolean Expression to True|(DP-52)",
+            "gfg": "https://bit.ly/3QFAe2o",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/parsing-a-boolean-expression/"
+          },
+          {
+            "topic": "Palindrome Partitioning \u2013 II|(DP-53)",
+            "gfg": "https://bit.ly/3QP6gsc",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/palindrome-partitioning-ii/"
+          },
+          {
+            "topic": "Partition Array for Maximum Sum|(DP-54)",
+            "gfg": "https://bit.ly/3AUSIGj",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/partition-array-for-maximum-sum/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 16.9",
+        "name": "DP on Squares",
+        "problems": [
+          {
+            "topic": "Maximum Rectangle Area with all 1\u2019s|(DP-55)",
+            "gfg": "https://bit.ly/3BY0ShY",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximal-rectangle/"
+          },
+          {
+            "topic": "Count Square Submatrices with All Ones|(DP-56)",
+            "gfg": "https://bit.ly/3UW7u7o",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/count-square-submatrices-with-all-ones/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 17",
+    "name": "Tries [Concepts and Problems]",
+    "substeps": [
+      {
+        "substep": "Step 17.1",
+        "name": "Theory",
+        "problems": [
+          {
+            "topic": "Implement TRIE | INSERT | SEARCH | STARTSWITH",
+            "gfg": "https://bit.ly/3pqacEj",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/implement-trie-prefix-tree/"
+          }
+        ]
+      },
+      {
+        "substep": "Step 17.2",
+        "name": "Problems",
+        "problems": [
+          {
+            "topic": "Implement Trie \u2013 2 (Prefix Tree)",
+            "gfg": "https://bit.ly/3SUAiwJ",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Longest String with All Prefixes",
+            "gfg": "https://bit.ly/3Qx5AYB",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Number of Distinct Substrings in a String",
+            "gfg": "https://bit.ly/3UoqdsB",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Bit PreRequisites for TRIE Problems",
+            "gfg": "https://bit.ly/3Vw4XB1",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Maximum XOR of two numbers in an array",
+            "gfg": "https://bit.ly/3Bypqwp",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/"
+          },
+          {
+            "topic": "Maximum XOR With an Element From Array",
+            "gfg": "https://bit.ly/3tNYB3Y",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/maximum-xor-with-an-element-from-array/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "step": "Step 18",
+    "name": "Strings [Hard Problems and Standard Algos]",
+    "substeps": [
+      {
+        "substep": "Step 18.1",
+        "name": "Hard Problems",
+        "problems": [
+          {
+            "topic": "Minimum number of bracket reversals needed to make an expression balanced",
+            "gfg": "https://bit.ly/3RiQ82d",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/"
+          },
+          {
+            "topic": "Count and say",
+            "gfg": "https://bit.ly/3AFdLwR",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/count-and-say/"
+          },
+          {
+            "topic": "Hashing In Strings | Theory",
+            "gfg": "https://bit.ly/3glak75",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Rabin Karp",
+            "gfg": "https://bit.ly/3SkQqGw",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Z-Function",
+            "gfg": "https://bit.ly/3dBLAGb",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "KMP algo / LPS(pi) array",
+            "gfg": "https://bit.ly/3fdJzQM",
+            "video": "",
+            "leetcode": ""
+          },
+          {
+            "topic": "Shortest Palindrome",
+            "gfg": "https://bit.ly/3PxCaIE",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/shortest-palindrome/"
+          },
+          {
+            "topic": "Longest happy prefix",
+            "gfg": "https://bit.ly/3ptCpKi",
+            "video": "",
+            "leetcode": "https://leetcode.com/problems/longest-happy-prefix/"
+          },
+          {
+            "topic": "Count palindromic subsequence in given string",
+            "gfg": "https://bit.ly/3xHw6Hs",
+            "video": "",
+            "leetcode": ""
+          }
+        ]
+      }
+    ]
+  }
+]
