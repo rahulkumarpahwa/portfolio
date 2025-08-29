@@ -1,4 +1,5 @@
 import Connect from "@/components/Connection/Connect";
+import Submissions from "@/components/Submissions";
 import Introduction from "@/components/Introduction";
 import { TimelineDemo } from "@/components/Journey/Timeline";
 import Image from "next/image";
@@ -20,6 +21,9 @@ export default function Home() {
       </div>
       <div className="w-full mt-10">
         <TimelineDemo />
+      </div>
+      <div className="w-full mt-10">
+        <Submissions />
       </div>
       <div className="w-full mt-10">
         <Connect />
