@@ -89,7 +89,7 @@ const Submissions: React.FC = () => {
     return <div className="text-center text-red-500 py-8">{error}</div>;
 
   return (
-    <div className="bg-white rounded-lg shadow p-6 my-8">
+    <div className="bg-white rounded-lg shadow p-4 my-8 max-w-full overflow-x-auto">
       <Link
         href={"https://takeuforward.org/plus/profile/rahulkumarpahwa"}
         target="_blank"
@@ -97,7 +97,7 @@ const Submissions: React.FC = () => {
       >
         TUF+ Monthly Submissions
       </Link>
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" minWidth={320} height={300}>
         <AreaChart data={data}>
           <CartesianGrid strokeDasharray="3 3" stroke={"#ccc"} />
           <XAxis dataKey="month" stroke={"#000"} />
