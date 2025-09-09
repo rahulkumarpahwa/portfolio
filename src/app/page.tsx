@@ -3,6 +3,7 @@ import Submissions from "@/components/Submissions";
 import Introduction from "@/components/Introduction";
 import { TimelineDemo } from "@/components/Journey/Timeline";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -22,7 +23,13 @@ export default function Home() {
       <div className="w-full mt-10">
         <TimelineDemo />
       </div>
-      <div className="w-full mt-10">
+      <div className="w-full mt-10 ">
+        <h1 className="text-3xl text-center dark:bg-black dark:text-white">
+          
+          <Link href="https://takeuforward.org/plus/profile/rahulkumarpahwa" className="hover:underline">
+           My DSA Journey{" "} @TUF+
+          </Link>
+        </h1>
         <Submissions />
       </div>
       <div className="w-full mt-10">
