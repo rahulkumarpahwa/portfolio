@@ -1,40 +1,27 @@
-import Connect from "@/components/Connection/Connect";
-import Submissions from "@/components/Submissions";
-import Introduction from "@/components/Introduction";
-import { TimelineDemo } from "@/components/Journey/Timeline";
-import Image from "next/image";
-import Link from "next/link";
+import Container from '@/components/common/Container';
+import About from '@/components/landing/About';
+import Blog from '@/components/landing/Blog';
+import CTA from '@/components/landing/CTA';
+import Experience from '@/components/landing/Experience';
+import Github from '@/components/landing/Github';
+import Hero from '@/components/landing/Hero';
+import Journey from '@/components/landing/Journey';
+import Work from '@/components/landing/Projects';
+import Setup from '@/components/landing/Setup';
+import React from 'react';
 
-export default function Home() {
+export default function page() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-6 md:p-12 lg:p-24 bg-[#51abb2] dark:bg-black dark:text-white">
-      <div className="flex flex-col lg:flex-row items-center justify-center gap-10 w-full">
-        <Introduction />
-        <div className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl">
-          <Image
-            src="/rahul.png"
-            alt="Rahul Kumar"
-            width={1000}
-            height={1000}
-            className="w-full rounded-lg"
-          />
-        </div>
-      </div>
-      <div className="w-full mt-10">
-        <TimelineDemo />
-      </div>
-      <div className="w-full mt-10 ">
-        <h1 className="text-3xl text-center dark:bg-black dark:text-white">
-          
-          <Link href="https://takeuforward.org/plus/profile/rahulkumarpahwa" className="hover:underline">
-           My DSA Journey{" "} @TUF+
-          </Link>
-        </h1>
-        <Submissions />
-      </div>
-      <div className="w-full mt-10">
-        <Connect />
-      </div>
-    </main>
+    <Container className="min-h-screen py-16">
+      <Hero />
+      <Experience />
+      <Work />
+      <About />
+      <Github />
+      <Blog />
+      <CTA />
+      <Setup />
+      <Journey />
+    </Container>
   );
 }

@@ -1,3 +1,3 @@
-export async function GET(request: Request): Promise<Response> {
-  return new Response("Hello");
+export async function GET(): Promise<Response> {
+  return new Response('Hello');
 }

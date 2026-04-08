@@ -1,72 +1,71 @@
-"use client";
-import Link from "next/link";
+'use client';
+
+import { heroConfig } from '@/config/Hero';
+import { motion } from 'framer-motion';
 
 const Introduction = () => {
-  const technologies = [
-    "Next.js",
-    "React.js",
-    "Vue.js",
-    "JSX",
-    "EJS",
-    "Node.js",
-    "Express.js",
-    "MongoDB",
-    "Mongoose ORM",
-    "Java",
-    "MySQL",
-  ];
+  const { title, description, skills } = heroConfig;
+
+  // Process description template
+  let descriptionText = description.template;
+  skills.forEach((skill, index) => {
+    descriptionText = descriptionText.replace(`{skills:${index}}`, skill.name);
+  });
+
+  // Animation variants
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.1,
+        delayChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: { duration: 0.5 },
+    },
+  };
 
   return (
-    <div className="space-y-5 text-center md:text-left">
-      <h1 className="text-4xl md:text-5xl italic antialiased font-serif font-bold animate-bounce">
-        Introduction
-      </h1>
-      <p className="antialiased font-sans text-sm md:text-base lg:text-lg">
-        Driven by a passion for development, I&apos;ve dedicated myself to
-        learning and growing through multiple internships, including impactful
-        roles at{" "}
-        <Link href="https://salesine.com" className="font-bold hover:underline">
-          Salesine
-        </Link>
-        ,{" "}
-        <Link
-          href="https://thesparksfoundationsingapore.org/"
-          className="font-bold hover:underline"
-        >
-          The Sparks Foundation
-        </Link>{" "}
-        & more. This journey has honed my skills in frontend development using
-        technologies like{" "}
-        {technologies.slice(0, 5).map((tech, index) => (
-          <span key={tech}>
-            <b>{tech}</b>
-            {index < 4 && ", "}
+    <motion.div
+      className="space-y-8 py-12 md:py-16"
+      variants={containerVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+    >
+      <motion.div variants={itemVariants} className="space-y-4">
+        <h1 className="text-4xl font-bold tracking-tight md:text-5xl lg:text-6xl">
+          {title}
+        </h1>
+        <div className="bg-accent h-1 w-12 rounded-full" />
+      </motion.div>
+
+      <motion.p
+        variants={itemVariants}
+        className="text-muted-foreground max-w-3xl text-base leading-relaxed md:text-lg"
+      >
+        {descriptionText}
+      </motion.p>
+
+      <motion.div variants={itemVariants} className="flex flex-wrap gap-2 pt-4">
+        {skills.slice(0, 8).map((skill) => (
+          <span
+            key={skill.name}
+            className="bg-muted text-foreground border-border hover:border-accent rounded-full border px-3 py-1 text-sm font-medium transition-colors duration-200"
+          >
+            {skill.name}
           </span>
         ))}
-        , backend development with{" "}
-        {technologies.slice(5, 7).map((tech, index) => (
-          <span key={tech}>
-            <b>{tech}</b>
-            {index < 1 && " and "}
-          </span>
-        ))}
-        , and database management utilizing{" "}
-        {technologies.slice(7, 9).map((tech, index) => (
-          <span key={tech}>
-            <b>{tech}</b>
-            {index < 1 && " and "}
-          </span>
-        ))}
-        . Additionally, I&apos;ve built on my foundational knowledge of{" "}
-        {technologies.slice(9).map((tech, index) => (
-          <span key={tech}>
-            <b>{tech}</b>
-            {index < 1 && " and "}
-          </span>
-        ))}
-        , further expanding my technical expertise.
-      </p>
-    </div>
+      </motion.div>
+    </motion.div>
   );
 };
 

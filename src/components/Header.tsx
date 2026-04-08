@@ -1,10 +1,12 @@
-"use client";
-import { useState, useEffect, useRef } from "react";
-import DarkModeToggle from "./DarkModeToggle";
-import { AiOutlineCloudDownload } from "react-icons/ai";
-import { HiMenu, HiX } from "react-icons/hi";
-import Logo from "./Logo";
-import Link from "next/link";
+'use client';
+
+import { navLinks } from '@/config/Navigation';
+import { Download, Menu, X } from 'lucide-react';
+import Link from 'next/link';
+import { useEffect, useRef, useState } from 'react';
+
+import DarkModeToggle from './DarkModeToggle';
+import Logo from './Logo';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +20,6 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
-  // Close dropdown when clicking outside
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (
@@ -30,122 +31,94 @@ const Header = () => {
     };
 
     if (isMenuOpen) {
-      document.addEventListener("mousedown", handleClickOutside);
+      document.addEventListener('mousedown', handleClickOutside);
     } else {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     }
 
     return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
+      document.removeEventListener('mousedown', handleClickOutside);
     };
   }, [isMenuOpen]);
 
   return (
-    <div className="bg-[#51abb2] p-6 md:p-8 shadow-xl dark:bg-black">
-      <div className="flex items-center justify-between">
+    <header className="border-border/40 bg-background/95 supports-[backdrop-filter]:bg-background/60 sticky top-0 z-50 w-full border-b backdrop-blur">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 md:h-20 lg:px-8">
         <Logo />
-        <div className="flex items-center md:hidden gap-4">
+
+        <nav className="hidden items-center gap-8 md:flex">
+          {navLinks.map((link) =>
+            link.download ? (
+              <a
+                key={link.label}
+                href={link.href}
+                download
+                className="text-foreground hover:text-accent flex items-center gap-2 px-3 py-2 text-sm font-medium transition-colors duration-200"
+              >
+                <Download className="h-4 w-4" />
+                {link.label}
+              </a>
+            ) : (
+              <Link
+                key={link.label}
+                href={link.href}
+                className="text-foreground hover:text-accent text-sm font-medium transition-colors duration-200"
+              >
+                {link.label}
+              </Link>
+            ),
+          )}
+        </nav>
+
+        <div className="flex items-center gap-4">
           <DarkModeToggle />
+
           <button
             onClick={toggleMenu}
-            className="text-black dark:text-white focus:outline-none"
+            className="bg-muted text-muted-foreground hover:bg-primary/10 inline-flex h-10 w-10 items-center justify-center rounded-lg transition-all duration-200 md:hidden"
           >
             {isMenuOpen ? (
-              <HiX className="text-3xl" />
+              <X className="h-5 w-5" />
             ) : (
-              <HiMenu className="text-3xl" />
+              <Menu className="h-5 w-5" />
             )}
           </button>
         </div>
-        <div className="hidden md:flex items-center justify-center gap-6 md:gap-10 dark:text-white">
-          <ul className="flex flex-wrap items-center gap-6 md:gap-10">
-            <li>
-              <a
-                href="#timeline"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Journey
-              </a>
-            </li>
-            <li>
-              <Link
-                href="/projects"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Projects
-              </Link>
-            </li>
-            <li>
-              <a
-                href="#connect"
-                className="hover:text-white transition-colors duration-300"
-              >
-                Connect
-              </a>
-            </li>
-            {/* <li>
-              <Link
-                href={"/try"}
-                className="hover:text-white transition-colors duration-300"
-              >
-                Try
-              </Link>
-            </li> */}
-            <li>
-              <a
-                href="./rahulkumar.pdf"
-                download
-                className="flex gap-2 items-center justify-center hover:text-white transition-colors duration-300"
-              >
-                <AiOutlineCloudDownload className="font-bold text-xl" />
-                <span>CV</span>
-              </a>
-            </li>
-          </ul>
-          {/* DarkModeToggle aligned with nav items */}
-          <DarkModeToggle />
-        </div>
+
+        {isMenuOpen && (
+          <div
+            ref={dropdownRef}
+            className="bg-background border-border animate-in fade-in slide-in-from-top-2 absolute top-16 right-0 left-0 border-b duration-200 md:hidden"
+          >
+            <nav className="flex flex-col gap-1 p-4">
+              {navLinks.map((link) =>
+                link.download ? (
+                  <a
+                    key={link.label}
+                    href={link.href}
+                    download
+                    onClick={closeMenu}
+                    className="text-foreground hover:text-accent hover:bg-muted flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  >
+                    <Download className="h-4 w-4" />
+                    {link.label}
+                  </a>
+                ) : (
+                  <Link
+                    key={link.label}
+                    href={link.href}
+                    onClick={closeMenu}
+                    className="text-foreground hover:text-accent hover:bg-muted rounded-md px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  >
+                    {link.label}
+                  </Link>
+                ),
+              )}
+            </nav>
+          </div>
+        )}
       </div>
-      {/* Dropdown Menu for Small Devices */}
-      {isMenuOpen && (
-        <div
-          ref={dropdownRef}
-          className={`w-3/4 sm:w-1/2 transition-all duration-300 ease-in-out ${
-            isMenuOpen
-              ? "opacity-100 max-h-screen"
-              : "opacity-0 max-h-0 overflow-hidden"
-          }`}
-        >
-          <ul className="flex flex-col gap-4 text-center text-black dark:text-white">
-            <li className="hover:bg-[#e26639] hover:text-white transition-colors duration-300 px-4 py-2 rounded-md">
-              <a href="/#timeline" className="block w-full">
-                Journey
-              </a>
-            </li>
-            <li className="hover:bg-[#e26639] hover:text-white transition-colors duration-300 px-4 py-2 rounded-md">
-              <a href="/projects" className="block w-full">
-                Projects
-              </a>
-            </li>
-            <li className="hover:bg-[#e26639] hover:text-white transition-colors duration-300 px-4 py-2 rounded-md">
-              <a href="/#connect" className="block w-full">
-                Connect
-              </a>
-            </li>
-            <li className="hover:bg-[#e26639] hover:text-white transition-colors duration-300 px-4 py-2 rounded-md">
-              <a
-                href="./rahulkumar.pdf"
-                download
-                className="flex gap-2 items-center justify-center w-full"
-              >
-                <AiOutlineCloudDownload className="font-bold text-xl" />
-                <span>CV</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-      )}
-    </div>
+    </header>
   );
 };
 

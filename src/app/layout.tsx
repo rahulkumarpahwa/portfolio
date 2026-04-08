@@ -1,16 +1,17 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Top from "@/components/Top";
+import UmamiAnalytics from '@/components/analytics/UmamiAnalytics';
+import ChatBubble from '@/components/common/ChatBubble';
+import Footer from '@/components/common/Footer';
+import Navbar from '@/components/common/Navbar';
+import OnekoCat from '@/components/common/OnekoCat';
+import { Quote } from '@/components/common/Quote';
+import { ThemeProvider } from '@/components/common/ThemeProviders';
+import { generateMetadata as getMetadata } from '@/config/Meta';
+import ReactLenis from 'lenis/react';
+import { ViewTransitions } from 'next-view-transitions';
 
-const inter = Inter({ subsets: ["latin"] });
+import './globals.css';
 
-export const metadata: Metadata = {
-  title: "Rahul Kumar Pahwa",
-  description: "Portfolio of Rahul Kumar Pahwa",
-};
+export const metadata = getMetadata('/');
 
 export default function RootLayout({
   children,
@@ -18,13 +19,27 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        {children}
-        <Top />
-        <Footer />
-      </body>
-    </html>
+    <ViewTransitions>
+      <html lang="en" suppressHydrationWarning>
+        <body className="font-hanken-grotesk antialiased">
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="system"
+            enableSystem
+            disableTransitionOnChange
+          >
+            <ReactLenis root>
+              <Navbar />
+              {children}
+              <OnekoCat />
+              <Quote />
+              <Footer />
+              <ChatBubble />
+              <UmamiAnalytics />
+            </ReactLenis>
+          </ThemeProvider>
+        </body>
+      </html>
+    </ViewTransitions>
   );
 }
